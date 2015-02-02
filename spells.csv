@@ -1,0 +1,886 @@
+NAME,,OTHER ARCANA,PAGE,REQ,SOURCE,DESCRIPTION,ROTE POOL,ASPECT
+"Death 1, Initiate",,,,,,,,
+Counterspell,Death 1,,123,?,M:tA,counter Death spells,Composure + Occult + Death,Covert
+Ectoplasmic Shaping,Death 1,,133,(x),M:tA,alter existing ectoplasm,Presence + Occult + Death vs. Resolve + Gnosis (mage) or Resistance (ghost),Vulgar
+Forensic Gaze,Death 1,,134,,M:tA,learn how a subject died,Intelligence + Medicine + Death,Covert
+Grim Sight,Death 1,,134,,M:tA,Mage Sight,Wits + Occult + Death,Covert
+Instill Mortality,Death 1,,130,,TotM,"item crafting, alternate cost relinquishment - Item dies as it is used",Intelligence + Crafts + Death,Covert
+Pain Harvest,Death 1,,131,,TotM,"item crafting, alternate cost relinquishment - Increase damage to pattern from violence",Stamina + Survival + Death,Covert
+Shadow Sculpting,Death 1,,135,,M:tA,deepen existing shadows,Wits + Occult + Death,Covert
+Soul Marks,Death 1,,135,,M:tA,examine a soul for Derangements (extended Intelligence + Empathy to diagnose what kind),Intelligence + Medicine + Death,Covert
+Speak with the Dead,Death 1,,135,,M:tA,"see, hear, and speak with ghosts in Twilight",Wits + Occult + Death,Covert
+"Death 2, Apprentice",,,,,,,,
+Animate Shadows,Death 2,,136,(x),M:tA,move shadows into lit areas,Wits + Occult+ Death,Vulgar
+Bestow Ghostly Sight,Death 2,Prime 4,29,,TotM,grant ability to see ghosts,Intelligence + Empathy + Death,Covert
+Corpse Mask,Death 2,,136,,M:tA,hide the true cause of death,Intelligence or Wits + Subterfuge + Death,Covert
+Corpse Unmasking,Death 2,Prime 1,186,,GotV,reveal the true cause of death,Intelligence + Occult or Science + Death,Covert
+Decay,Death 2,,136,(x),M:tA,reduce Durability of a touched object,Stamina or Resolve + Intimidate + Death,Vulgar
+Dislodge the Soul,Death 2,Prime 1,124,(x)?,L:tA,damage a soul of a sleeper (or mage at Death 4) for opportunity to gain Willpower,Resolve + Intimidate + Death vs. Resolve + Gnosis,Vulgar
+Ectoplasm,Death 2,,136,(x),M:tA,generate ectoplasm from an orifice,Stamina + Occult + Death,Vulgar
+Entropic Guard,Death 2,,136,,M:tA,Shielding,Wits + Occult + Death,Covert
+Final Sight,Death 2,,186,(x),GotV,view the last image a body saw,Manipulation + Occult + Death,Vulgar
+Forensic Invisibility,Death 2,Matter 1,54,,Ban,"destroys fibers, dead skin, saliva, oils and hair",Composure + Stealth + Death,Covert
+Ghost Summons,Death 2,,137,,M:tA,call to ghosts in the area,Presence + Persuasion + Death vs. Resistance,Covert
+Grant the Grim Sight,Death 2,,137,,M:tA,grant Mage Sight,Manipulation or Presence + Persuasion + Death,Covert
+Lighten Anchor,Death 2,,60,,TotM,increase the range a ghost can travel,Wits + Occult + Death,Covert
+Quiet Grave,Death 2,,54,,Ban,subtract Potency from attempts to animate a corpse,Presence + Academics + Death,Covert
+Soul Jar,Death 2,,137,,M:tA,prevent a dying soul from departing,Presence + Crafts + Death,Covert
+Suppress Aura,Death 2,,137,,M:tA,make examination of your soul more difficult,Manipulation + Subterfuge + Death,Covert
+Touch of the Grave,Death 2,,138,(x),M:tA,reach into twilight,Dexterity + Survival + Death,Vulgar
+"Death 3, Disciple",,,,,,,,
+Arm Ghost,Death 3,,134,?,TotM,allow a ghost to trigger a precast spell,Intelligence + Occult + Death,Covert
+Control Ghost,Death 3,,138,(x),M:tA,dominate the will of a ghost,Presence or Manipulation + Intimidation + Death vs. Resistance,Vulgar
+Corpse Flesh,Death 3,Life 3,173,(x),AA,become halfway dead to survive damage,Resolve + Medicine + Death,Vulgar
+Curse of Withering,Death 3,,137,?????,TotM,"item creation, curse",Presence + Crafts + Death,Covert
+Destroy Ephemera,Death 3,,138,(x),M:tA,fray objects in twilight,Resolve + Occult + Death,Vulgar
+Destroy Object,Death 3,,139,,M:tA,reduce structure of a touched object if successes > durability,Resolve or Composure + Crafts or Science + Death,Covert
+Devouring the Slain,Death 3,,139,(x)?,M:tA,gain willpower from wounded foes,Manipulation + Persuasion + Death,Vulgar
+Dissipate Unreal Construct,Death 3,Prime 3,26,,TotM,reduce structure of phantasms or ephemera,Intelligence + Crafts + Death,Covert
+Entropic Shroud,Death 3,,139,,M:tA,grant Shielding,Wits + Occult + Death,Covert
+Ghost Gate,Death 3,,139,(x),M:tA,open a passage to Twilight,Resolve + Occult + Death,Vulgar
+Ghostly Object,Death 3,,140,,M:tA,transition an object to ephemera in Twilight,Resolve + Occult or Science + Death,Covert
+Healing the Dead Mind,Death 3,,192,,Myst,increase a ghost's Mental Attributes,Manipulation + Empathy + Death,Covert
+Hollow Victory,Death 3,,54,(x)?,Ban,caster dies,Resolve + Medicine + Death,Vulgar
+Martyr's Bequest,Death 3,Life 3 and/or Mind 3 and/or Prime 3,195,s,SL,kill self when fatally injured; grant remaining Health/Willpower/Mana to allies,Presence + Persuasion + Death,Covert
+Orpheus' Lament,Death 3,,131,,GoG,all in earshot suffer penalty to deliberate rolls,Manipulation + Expression + Death vs Composure + Gnosis,Covert
+Quicken Corpse,Death 3,,140,(x),M:tA,raise a zombie,Presence + Persuasion + Death,Vulgar
+Restore Corpus,Death 3,,141,(x),M:tA,restore a ghost's body,Composure or Resolve + Occult + Death,Vulgar
+Sculpt Ephemera,Death 3,,141,(x),M:tA,alter the form of twilight objects,Dexterity + Crafts + Death,Vulgar
+Self Repairing Zombie,Death 3,Matter 3,173,(x)s,AA,allow zombies eat corpses for health,Presence + Occult + Death,Vulgar
+Sever the Sleeping Soul,Death 3,,141,(x)?,M:tA,cut a Sleeper's soul free,Presence + Intimidation + Death,Vulgar
+Shadow-Forged,Death 3,Matter 3,174,(x),AA,create weapons or tools from shadows,Wits + Crafts + Death,Vulgar
+Summon Shadows,Death 3,,142,(x),M:tA,"create animate, physical shadows",Wits + Occult + Death,Vulgar
+Summon Supernal Being,Death 3,,73,,Summ,"(Moros only) call a Spectre from Stygia, with difficulty",,Covert
+Suppress Own Life,Death 3,,142,,M:tA,pretend to be dead,Composure + Subterfuge + Death,Covert
+The Metal Dead,Death 3,Matter 3,56,(x),GoG,animate corpse and transform to metal,,Vulgar
+Transfer Anchor,Death 3,,133,?,TotM,alter a ghost's anchor to a different subject,Presence + Larceny + Death,Covert
+"Death 4, Adept",,,,,,,,
+Cloak of Decay,Death 4,Fate 2,175,(x)?,AA,apply Destroy Object against Melee attacks,Resolve + Crafts or Science + Death,Vulgar
+Enervation,Death 4,,143,,M:tA,reduce a touched foe's physical attributes,Presence or Manipulation + Occult + Death,Covert
+Ghost Familiar Pact,Death 4,,38,,Summ,bind a Ghost Familiar to self,Wits + Occult + Death,Covert
+Ghostly Archive,Death 4,Spirit 3,110,(x)?,GoG,invest in Library of bound ghosts,Intelligence + Occult + Death,Vulgar
+Haunted Shell,Death 4,Matter 4,29,(x),GoG,bind a ghost into a physical object,(n/a),Vulgar
+Haunting,Death 4,,143,(x)?,M:tA,bind a dying soul to become a ghost,Presence or Intelligence + Persuasion + Death vs. Resolve (sleeper) or Resistance (ghost),Vulgar
+Revenant,Death 4,,143,(x),M:tA,raise a revenant,Manipulation + Persuasion + Death,Vulgar
+Rotting Flesh,Death 4,,144,(x)?,M:tA,do Lethal damage with a touch attack,Strength + Intimidation + Death - Stamina,Vulgar
+Scourge Ghost,Death 4,,134,,TotM,psychicaly traumatize a ghost,Presence + Occult + Death vs Resisence,Covert
+Shadow Flesh,Death 4,Life 4; opt Matter 4,189,,SotT,transform self into living shadow,Stamina + Occult + Death,Vulgar
+Slay Own Aura,Death 4,,144,,M:tA,prevent identification of your aura,Intelligence + Subterfuge + Death,Covert
+Soul Binding,Death 4,,144,(x),M:tA,attach a stolen soul,Composure + Empathy + Death,Vulgar
+Suppress Other's Life,Death 4,,144,,M:tA,falsify another's death,Manipulation + Subterfuge + Death vs. Composure + Gnosis,Covert
+Twilight Shift,Death 4,,145,(x)?,M:tA,transition to and from Twilight,Stamina + Occult + Death,Vulgar
+Undying Zeal,Death 4,Time 2,55,(x)?,Ban,come back as revenant after willing death,Composure + Medicine + Death,Vulgar
+"Death 5, Master",,,,,,,,
+Atonement,Death 5,Fate 2,35,(x)s,L:tA,return a dead sleeper to life and to awaken by dying,(n/a),Vulgar
+Create Ghost,Death 5,"Mind 4, Time 2",193,(x)?,Myst,call a ghost out of the past,Presence + Academics + Death,Vulgar
+Deathlike Journey,Death 5,Life 2,104,(x)?,L:tA,send soul on journey to the Underworld,Resolve + Occult + Death,Vulgar
+Destroy Mana,Death 5,,145,,M:tA,unweave Mana that is bound as Tass,Strength + Intimidation + Death - Resolve,Covert
+Devouring the Living,Death 5,,145,(x)?,M:tA,gain Willpower from healthy foes,Manipulation+ Intimidation + Death - Stamina (living) or Resistance (ghost),Vulgar
+Grant Ghost Familiar,Death 5,,39,,Summ,bind a Ghost Familiar to another person,Presence + Persuasion + Death,Covert
+Grant Lifespan,Death 5,,35,(x)?,L:tA,give others years of your life,Intelligence + Medicine + Death,Vulgar
+Quell the Spark,Death 5,,145,,M:tA,destroy set magic,Resolve or Manipulation + Occult + Death,Covert
+Quicken Ghost,Death 5,,146,(x),M:tA,increase a ghost's traits,Manipulation or Resolve + Occult + Death,Vulgar
+Secret Marriage,Death 5,,152,(x),TotM,bind willing Ghost to Homonculus,Intelligence + Occult + Death,Vulgar
+Steal Body,Death 5,Life 3,105,(x)??(2),FC,supplant a target's soul with your own,Wits + Science + Death vs. Resolve,Vulgar
+Steal Lifespan,Death 5,,146,(x)?,M:tA,steal a year of someone's life,Manipulation + Subterfuge + Death,Vulgar
+Summon Chthonian,Death 5,"Prime 3, Spirit 3",46,,Summ,call a never-born from the Underworld,,Vulgar
+Summon the Dead,Death 5,,146,(x),M:tA,call a ghost from the Underworld,Presence or Manipulation + Persuasion + Death vs. Resistance,Vulgar
+"Fate 1, Initiate",,,,,,,,
+Aim for the Dead,Fate 1,"Space 1, Death 1",56,,Ban,subtract Potency from penalties to call shots on an undead target,Composure + Weaponry or Firearms + Fate,Covert
+Friendly Face,Fate 1,,208,,Summ,determine which creature to summon from which realm to assist with a problem,Manipulation + Investigation + Fate,Covert
+Interconnections,Fate 1,,148,,M:tA,analyze fate threads,Intelligence or Wits + Investigation + Fate,Covert
+Quantum Flux,Fate 1,,148,,M:tA,"""aim"" any action",Wits or Resolve + Occult + Fate,Covert
+Reading the Outermost Eddies,Fate 1,,149,,M:tA,gain small good fortune,Wits + Investigation + Fate,Covert
+Sharpshooter's Eye,Fate 1,Space 1 + Life 1 or Matter 1,149,,M:tA,"get ""target lock"" when shooting",Composure + Firearms + Fate,Covert
+Sacrifice Fortune,Fate 1,,131,,TotM,"item crafting, alternate relinquishment cost - downgrade exceptional successes",Wits + Occult + Fate,Covert
+Study Final Name,Fate 1,Death 1,101,,L:tS,view a recorded Final Name or Momentary Name,Intelligence + Occult + Fate,Covert
+Synchronicity,Fate 1,,60,,TotM,gain clues from random events,Wits + Streetwise + Fate,Covert
+The Sybil's Sight,Fate 1,,149,,M:tA,Mage Sight,Wits + Occult + Fate,Covert
+Winds of Chance,Fate 1,,150,,M:tA,slight boon or bane,Wits + Subterfuge + Fate,Covert
+"Fate 2, Apprentice",,,,,,,,
+Deathless Oath,Fate 2,Death 4,110,,GoG,Swear oath that makes caster a revenant after death with a Passion of fulfilling said oath.,Resolve + Expression + Fate,Covert
+Dialing the Lucky Number,Fate 2,Forces 2 + Space 2,105,,FC,call the phone nearest your target,Wits + Crafts + Fate,Covert
+Exceptional Luck,Fate 2,,151,?,M:tA,gain 9-Again,Manipulation + Occult + Fate,Covert
+Fate's Justice,Fate 2,Mind 2 + Time 2,106,?,FC,preemptively curse an attacker,Wits + Science +Fate,Covert
+Fortunate Timing,Fate 2,Time 1,106,,FC,manage event timing,Wits + Persuasion + Fate,Covert
+Fortune's Protection,Fate 2,,152,,M:tA,Shielding,Composure or Resolve + Athletics + Fate,Covert
+Grant the Sybil's Sight,Fate 2,,152,,M:tA,grant Mage Sight,Manipulation + Occult + Fate,Covert
+Heroic Effort,Fate 2,,175,,AA,increase next Chance Die pool by one,Wits + Occult + Fate,Covert
+Loyal Possession,Fate 2,Mind 2,107,?,FC,"item crafting, item returns after loss",Intelligence + Persuasion + Fate,Covert
+Platonic Mechanism,Fate 2,,152,,M:tA,negate dramatic failure of device,Intelligence + Occult or Science + Fate,Covert
+Querulous Minds,Fate 2,Prime 1,187,,GotV,detect Sleepers with magical experiences,Wits + Investigation + Fate,Covert
+Reveal Enigmas,Fate 2,Mind 2 opt Matter 1,193,,Myst,uncover and understand patterns of puzzles or codes,Wits + Investigation + Fate,Covert
+Scribe Final Name,Fate 2,Death 1,101,?,L:tS,record a dying person's history; or a living person's Momentary Name,Resolve + Occult + Fate,Covert
+Shifting the Odds,Fate 2,,153,?,M:tA,minor boons and banes,Wits + Occult or Science + Fate,Covert
+Sniffing the Winds of Fate,Fate 2,Death 2,187,,GotV,determine magnitude of Destiny,Composure + Investigation + Death,Covert
+Swearing an Oath,Fate 2,opt Prime 3,153,,M:tA,minor Oathbinding,Presence + Persuasion + Fate,Covert
+The Evil Eye,Fate 2,,151,?,M:tA,penalizes target's rolls,Manipulation or Wits + Persuasion + Fate - Composure,Covert
+The Perfect Moment,Fate 2,,152,,M:tA,affects social situations beneficially,Wits + Occult + Fate,Covert
+Zone of Extremity,Fate 2,,60,,TotM,all successes and failures exaggerated,Presence + Occult + Fate,Covert
+"Fate 3, Disciple",,,,,,,,
+Alter Oath,Fate 3,,154,,M:tA,change the terms of an Oath,Manipulation or Wits + Politics + Fate - Resolve,Covert
+Alternate Scenerio,Fate 3,Time 3,57,(x)?,GoG,choose best of multiple attempted rolls,,Vulgar
+Bad Penny,Fate 3,,136,?,TotM,"item crafting, curse",Manipulation + Subterfuge + Fate,Covert
+Bestow Exceptional Luck,Fate 3,,155,?,M:tA,grant 9-Again,Manipulation + Persuasion + Fate,Covert
+Blessing,Fate 3,,61,,TotM,survive a named fatality,Manipulation + Subterfuge + Fate,Covert
+Cursed Object,Fate 3,,136,? (1 to 5),TotM,"item crafting, curse",Intelligence + Occult + Fate,Covert
+Eleggua's Notice,Fate 3,,75,,MT,severely deprive target of Destiny and luck,Manipulation + Persuasion + Fate vs Resolve + Composure,Covert
+Fabricate Fortune,Fate 3,,155,,M:tA,create false Destiny,Intelligence + Subterfuge + Fate vs Composure + Gnosis,Covert
+Grant Fortune's Protection,Fate 3,,155,,M:tA,grant Shielding,Presence + Persuasion + Fate,Covert
+Instill Malediction,Fate 3,,130,,TotM,"item crafting, relinquish by accepting a curse of ill luck on the item",Intelligence + Crafts + Fate,Covert
+Lucky Coin,Fate 3,,155,,M:tA,give item Equipment or Armor bonus,Wits or Presence + Occult or Science + Fate,Covert
+Monkey's Paw,Fate 3,,155,,M:tA,give item negative Equipment or Armor bonus,Wits + Occult or Science + Fate,Covert
+Occlude Destiny,Fate 3,,155,,M:tA,hide target's Destiny,Intelligence or Composure + Subterfuge + Fate,Covert
+Sense Strength and Weakness,Fate 3,,72,,GoG,discern best and worst competence in a group,Intelligence + Investigation + Fate,Covert
+Shared Fate,Fate 3,,107,(x)?,FC,targets are done duplicate damage,Presence + Persuasion + Fate,Covert
+Superlative Luck,Fate 3,,156,(x)?,M:tA,gain 8-Again,Resolve + Occult + Fate,Vulgar
+Tangle the Threads,Fate 3,"Mind 2, Prime 2",176,,AA,shield self against Fate effects,Wits + Occult + Fate,Covert
+Technology Curse,Fate 3,Forces 2,190,?,SotT,prevent target from using electronic devices,Wits + Science + Fate,Covert
+Uncover Final Name,Fate 3,Death 2,102,,L:tS,rebuild a passed Final Name,Resolve + Occult + Fate,Covert
+"Fate 4, Adept",,,,,,,,
+Assuming the Name,Fate 4,Death 3,102,?,L:tS,wear the Final Name of the departed,(n/a),Covert
+Coincidental Travel,Fate 4,,196,,SL,series of coincidences help mage get to desired location much faster and easier than usual,Wits + Persuasion + Fate,Covert
+Destroy Bindings,Fate 4,,156,(x),M:tA,"dispel Anchors, Fetishes and Fetters",Resolve or Intelligence + Occult + Fate vs. bond Potency,Vulgar
+Forbidden Fate,Fate 4,,196,?,SL,target suffers bad luck when attempting to reach a specific goal,Manipulation + Subterfuge + Fate,Covert
+Fortune's Fool,Fate 4,,177,?,AA,store failures to inflict on others,Wits + Occult + Fate,Covert
+Gift of Fortune,Fate 4,Space 2,157,?,M:tA,deliver an object from anywhere,Intelligence + Investigation + Fate,Covert
+Probable Cause,Fate 4,,157,(x)?,M:tA,gain Rote Quality to rolls,Composure + Occult + Fate,Vulgar
+Sanctify Oaths,Fate 4,opt Prime 3,157,,M:tA,witness others Oath Swearing,Presence + Expression + Fate vs. Resolve + Gnosis,Covert
+Sever Oaths,Fate 4,,158,,M:tA,dispel Oaths,Manipulation + Occult + Fate,Covert
+Transfer Destiny,Fate 4,,190,,SotT,"touch both donor and receiver, and transfer dots of Destiny between the two",Manipulation + Occult + Fate vs. Resolve + Gnosis,Covert
+"Fate 5, Master",,,,,,,,
+Break the Chains,Fate 5,,159,(x),M:tA,unweave Oaths and magical bonds of all types,Wits or Resolve + Occult + Fate vs. geas Potency,Vulgar
+Forge Destiny,,,159,?,M:tA,give bonus to all rolls involving the destiny and penalty to all rolls resisting destiny,Manipulation or Intelligence + Persuasion + Fate vs. Resolve + Gnosis,Covert
+Forge Doom,,,159,(x)?,M:tA,adds to all damage received while within presence of Doom,Resolve + Intimidation + Fate vs. Resolve + Gnosis,Vulgar
+Forge Godsend,,,159,(x)?,M:tA,negate damage while within presence of Godsend,Composure + Survival + Fate vs. Resolve + Gnosis,Vulgar
+Geas,,,160,(x),M:tA,place target under Oath forcibly,Presence + Expression + Fate vs. Resolve + Gnosis,Vulgar
+Great Curse,,,160,(x)?,M:tA,penalize all of target's rolls,Manipulation + Intimidation + Fate - Composure,Vulgar
+Infectious Curse,,Space 2,33,(x)?,TotM,affect all relations of target with Great Curse,Resolve + Intimidation + Fate,Vulgar
+Swarm of Locusts,,,161,(x),M:tA,prevent further Paradox,Wits + Occult or Science + Fate,Vulgar
+True Love,,,132,?sw,GoG,"lovers gain joined resistance, Willpower use",Manipulation + Expression + Fate,Covert
+"Fate 7, Archmastery",,,,,,,,
+"Fate 9, Archmastery",,,,,,,,
+"Forces 1, Initiate",,,,,,,,
+Influence Heat,,,162,,M:tA,redirect heat,Intelligence + Occult or Science + Forces,Covert
+Influence Light,,,163,,M:tA,redirect light,Intelligence + Occult or Science + Forces,Covert
+Influence Sound,,,163,,M:tA,redirect sound,Intelligence + Occult or Science + Forces,Covert
+Nightsight,,,163,,M:tA,see in darkness or low light,Wits + Composure + Forces,Covert
+Outer Music,,,56,,Ban,listen to the noise of outer space,Wits + Science + Forces,Covert
+Read Matrices,,,163,,M:tA,Mage Sight,Wits + Occult or Science + Forces,Covert
+Receiver,,,164,,M:tA,hear sub/supersonic frequencies,Wits + Occult + Forces,Covert
+Tune In,,,164,,M:tA,listen to radio frequencies,Intelligence + Science + Forces,Covert
+"Forces 2, Apprentice",,,,,,,,
+Activate Police Band,,,56,,Ban,"send a pulsed ""officers need assistance"" signal",Manipulation + Streetwise + Forces,Covert
+Aether Net,,,108,(x),FC,wireless connection from any location,Manipulation + Science + Forces,Vulgar
+Alter Frequency,,Space 1,188,,GotV,increase or decrease frequency of sound,Presence + Expression + Forces,Covert
+Circuit Television,,Space 1,108,v,FC,tap into any local wired signal,Intelligence + Computer + Forces,See text
+Control Heat,,,165,,M:tA,increase or decrease temperature,Intelligence + Occult or Science + Forces,Covert
+Control Light,,,165,,M:tA,brighten or darken light source,Intelligence + Occult or Science + Forces,Covert
+Control Sound,,,165,,M:tA,increase or decrease volume in area,Intelligence + Occult or Science + Forces,Covert
+Control Traffic,,,61,,TotM,alter traffic control patterns,Wits + Science + Forces,Covert
+Electronic Eye,,,108,(x),FC,read data from touched disk or drive,Intelligence + Computer + Forces,Vulgar
+Eyes of the Matrix,,,165,,M:tA,grant Mage Sight,Wits or Presence + Occult or Science + Forces,Covert
+Fireproofing,,,44,(x),L:tA,prevent damage from flames,Stamina + Survival + Forces,Vulgar
+Friction Reduction,,,62,(x),TotM,make surface slick,Wits + Science + Forces,Vulgar
+Influence Electricity,,,165,(x),M:tA,cause electricity to arc at targets,Dexterity + Athletics + Forces,Vulgar
+Influence Fire,,,166,(x),M:tA,force fire to burn in direction of choice,Strength + Athletics + Forces,Vulgar
+Insulate,,,191,,SotT,"reduce damage from electricity by 2/dot of Forces, automatically pull away",Stamina + Survival + Forces,Vulgar
+Invisible Object,,,166,(x)?,M:tA,make stationary objects invisible,Manipulation + Subterfuge + Forces,Vulgar
+Invisibility to Machines,,,108,v,FC,elude electronic surveillance,Wits + Persuasion + Forces (FC) OR Wits + Stealth + Forces (GotV),See text
+Invoke Password,,,109,,FC,gain access to active computer function,Wits + Crafts + Forces,Covert
+Kinetic Blow,,,166,(x),M:tA,give a Bashing weapon Lethal damage,Strength + Brawl or Weaponry + Forces,Vulgar
+Modulate Frequency,,Fate 1,177,,AA,create secure network of devices,Wits + Science + Forces,Covert
+Modulate Speech,,Fate 1,197,,SL,control own speech patterns and volume,Manipulation + Expression + Forces,Covert
+Nullify Combustion,,Death 2,177,,AA,prevent or kill combustion in action,Presence + Occult or Science + Forces,Covert
+Spare Sleepers,,"Space 1, Prime 1",56,,Ban,use ranged weapons without hitting Sleepers,Composure + Firearms + Forces,Covert
+Telekinetic Push,,,23,(x),GotU,push results in knockdown; target rolls Dex+Athletics-Potency to stay up,Presence + Intimidation + Forces,Vulgar
+Transmission,,,167,,M:tA,alter radio exchanges,Manipulation + Expression + Forces,Covert
+Unseen Shield,,,167,,M:tA,Shielding,Stamina + Occult or Science + Forces,Covert
+"Forces 3, Disciple",,,,,,,,
+Autonomous Servant,,Mind 1/5; opt Space 2,167,(x),M:tA,telekenetic assistant,Intelligence + Investigation + Forces,Vulgar
+Bestow Unseen Shield,,,168,,M:tA,grant Shielding,Intelligence or Resolve + Occult or Science + Forces,Covert
+Call Lightning,,,168,,M:tA,pull lightning from cloudy sky,Dexterity or Strength + Athletics + Forces,Covert
+Complex Transmission,,,109,(x),FC,alter complicated signals,Manipulation + Science + Forces,Vulgar
+Control Electricity,,,168,,M:tA,change direction of current or diminish flow,Wits + Science + Forces,Covert
+Control Fire,,,168,,M:tA,increase or decrease intensity of fire,Presence + Occult or Science + Forces,Covert
+Curse of Electrical Rebellion,,,139,s,TotM,"item crafting, curse",Intelligence + Crafts + Forces,Covert
+Cutting Scream,,,178,(x),AA,deal damage and cause deafness with voice,Stamina + Expression + Forces,Vulgar
+Empowered Voice,,,178,(x),AA,knockdown opponents with a shouted syllable,Presence + Athletics + Forces,Vulgar
+Floating Step,,,70,(x),GoG,"maintain balance, leap prodigious distances",Resolve + Athletics + Forces,Vulgar
+Instill Shock,,,140,01-Mar,TotM,"item crafting, defense",Intelligence + Crafts + Forces,Covert
+Light Mastery,,,169,(x),M:tA,create or extinguish light,Composure + Occult or Science + Forces,Vulgar
+Optimize Kinetic Attack,,,71,,GoG,"gain bonus to future attack, up to weapon bonus",Wits + Brawl + Forces,Covert
+Personal Invisibility,,,169,(x)?,M:tA,become invisible while concentrating,Wits + Stealth + Forces,Vulgar
+Sorcerer's Retribution,,Prime 2,55,(x)s,GoG,protect self against spells and lash out at attacker,Presence + Expression + Forces,Vulgar
+Sound Mastery,,,170,(x),M:tA,alter qualities and direction of sound,Resolve + Occult or Science + Forces,Vulgar
+Stay the Invisible Fires,,,109,,FC,gain armor against radiation,Strength + Science + Forces,Covert
+Supernal Hack,,Matter 3,194,,Myst,gain bonus to Computer rolls,Intelligence + Computer + Forces,Covert
+Telekinesis,,,170,(x),M:tA,move or throw objects,Wits + Athletics or Larceny + Forces,Vulgar
+Telekinetic Strike,,,170,(x),M:tA,strike a target at range,Presence + Athletics + Forces,Vulgar
+Turn Projectile,,,171,(x),M:tA,alter the trajectory of an object reflexively,Dexterity + Athletics + Forces,Vulgar
+"Forces 4, Adept",,,,,,,,
+Bag of Winds,,"Fate 2, Time 2",68,(x)?,L:tA,store weather for later use,Dexterity + Science + Forces,Vulgar
+Bestow Invisibility,,,171,(x)?,M:tA,grant invisibility to others while concentrating,Manipulation + Stealth + Forces,Vulgar
+Burst of Speed,,,171,(x)s,M:tA,make yourself faster temporarily,Wits + Athletics + Forces,Vulgar
+Change Weather,,,172,,M:tA,create any non-disaster level weather condition,Intelligence or Resolve + Occult or Sciences + Forces,Covert
+Containment,,,195,(x),Myst,protect against fast movement and environmental dangers,Wits + Crafts + Forces,Vulgar
+Control Velocity,,,172,(x),M:tA,alter the speed of an object,Intelligence + Science + Forces,Vulgar
+Destroy Spirit,,Prime 4,208,,Summ,inflict lethal damage and remove essence from a Spirit,Strength + Athletics + Forces,Vulgar
+Fiery Transformation,,Life 4; opt Matter 4,172,(x),M:tA,become living flame,Stamina + Intimidation + Forces,Vulgar
+Fiery Servant,,Mind 5,43,(x)?,L:tA,create sentient being of fire,Stamina + Intimidation + Forces,Vulgar
+Firebolt,,,179,(x),AA,"inflict serious damage, ignite flammable objects",Dexterity + Athletics + Forces,Vulgar
+Firestarter,,,43,?,L:tA,kindle flames,Presence + Intimidation + Forces,Covert
+Friction Knife,,,173,(x),M:tA,increase air friction to lethal levels,Intelligence + Occult or Science + Forces vs. Stamina + Gnosis,Vulgar
+Gravity Shift,,,179,(x),AA,redirect personal center of gravity,Wits + Occult + Forces,Vulgar
+Influence Magnet,,,63,(x),TotM,make a magnet stronger or weaker,Intelligence + Science + Forces,Vulgar
+Invisible Fire,,,110,(x),FC,cause Lethal or Aggravated radiation damage,Wits + Science + Forces,Vulgar
+Kinetic Ripple,,,180,(x)?,AA,create an outward blast of force,Stamina + Athletics + Forces,Vulgar
+Levitation,,,173,(x),M:tA,float slowly,Intelligence + Athletics + Forces,Vulgar
+Quench the Invisible Fires,,,110,(x),FC,remove radiation from area,Intelligence + Science + Forces,Vulgar
+Sensory Deprivation,,opt Life 3 and/or Mind 2,63,,TotM,block a target's senses,Manipulation + Intimidation + Forces,Covert
+Thunderbolt,,,173,(x),M:tA,create electricity,Stamina or Intelligence + Athletics + Forces,Vulgar
+Transform Energy,,,173,(x),M:tA,change one energy form to another,Intelligence or Wits + Occult or Science + Forces,Vulgar
+Trojan Horse,,"Time 2, Fate 2",57,(x)s,Ban,embed a Thunderbolt in a Sleeper subject that fires at the next Mage nearby,Resolve + Occult + Forces,Covert
+Unseen Hand,,,173,(x),M:tA,kinetically lift a creature,Wits + Brawl + Forces vs. Composure + Gnosis,Vulgar
+"Forces 5, Master",,,,,,,,
+Adverse Weather,,,174,(x),M:tA,create disaster level weather condition,Resolve + Intimidation + Forces,Vulgar
+Bestow Burst of Speed,,,175,(x)s,M:tA,make someone else faster temporarily,Manipulation + Athletics + Forces,Vulgar
+Bestow Levitation,,,175,(x)?,M:tA,allow others to float slowly,Intelligence or Wits + Occult or Science + Forces,Vulgar
+Complete Invisibility,,,175,(x)?,M:tA,gain prolonged invisibility,Wits + Stealth + Forces,Vulgar
+Control Gravity,,,176,(x),M:tA,alter power and direction of gravity,Intelligence or Composure + Occult or Science + Forces,Vulgar
+Create Sunlight,,,176,(x)?,M:tA,create a burst of light,Intelligence + Occult or Science + Forces,Vulgar
+Earthquake,,,176,(x),M:tA,shift tectonics in the area,Resolve or Manipulation + Athletics + Forces,Vulgar
+Electromagnetic Pulse,,,177,(x),M:tA,deactivate electronic devices,Resolve + Science + Forces,Vulgar
+Eradicate Radiation,,,177,(x),M:tA,remove traces of toxic radiation,Resolve + Science + Forces,Vulgar
+Flight,,,177,(x)?,M:tA,"gain perfect, but slow, flight",Dexterity + Athletics + Forces,Vulgar
+Increase Gravity,,,178,(x),M:tA,increase power of gravitational pull,Resolve or Presence + Occult or Science + Forces,Vulgar
+Magnetize,,,63,(x),TotM,make a non-ferrous substance magnetic,Intelligence + Science + Forces,Vulgar
+Nullify Gravity,,,178,(x),M:tA,cancel gravity entirely in a region,Intelligence + Occult or Science + Forces,Vulgar
+Radiation,,,178,(x),M:tA,create a burst of destructive radiation,Stamina + Occult or Science + Forces,Vulgar
+Velocity Mastery,,,179,(x),M:tA,increase or decrease speed of an object,Resolve + Athletics + Forces,Vulgar
+"Forces 6, Archmastery",,,,,,,,
+Nuclear Cascade,,,35,,IM,Generate radioactive fission or fusion,,Unlisted
+"Forces 7, Archmastery",,,,,,,,
+"Forces 9, Archmastery",,,,,,,,
+"Life 1, Initiate",,,,,,,,
+Analyze Life,,,180,,M:tA,"Discern species, age & sex of plant or animal",Intelligence + Survival (plants) or Animal Ken (animals) or Medicine + Life,Covert
+Cleanse the Body,,,180,,M:tA,purge yourself of toxins,Stamina + Medicine + Life,Covert
+Forgo Rest,,,110,,FC,go for longer without sleep,Resolve + Crafts + Life,Covert
+Healer's Trance,,,181,,M:tA,gain understanding of a subject's condition,Intelligence + Medicine + Life,Covert
+Pulse of the Living World,,,181,,M:tA,Mage Sight,Wits or Intelligence + Medicine or Science + Life,Covert
+Sense Life,,,181,,M:tA,detect living presences in the area,Wits + Animal Ken + Life,Covert
+"Life 2, Apprentice",,,,,,,,
+Body Control,,,182,,M:tA,assume control of autonomic processes,Wits + Athletics + Life,Covert
+Bread Alone,,,64,?,TotM,create edible food from inedible organic matter,Wits + Survival + Life,Vulgar
+Control Base Life,,,182,,M:tA,"control insects, lesser amphibians, ect",Manipulation + Animal Ken + Life,Covert
+Evidence Shroud,,Matter 2,65,,TotM,destroy biological/physical traces,Wits + Investigation + Life / Matter,Covert
+Heal Flora and Fauna,,,182,,M:tA,heal lesser creatures and plants,Intelligence + Medicine + Life,Covert
+Organic Resilience,,,183,,M:tA,Shielding,Stamina or Resolve + Athletics + Life,Covert
+Purify Bodies,,,183,,M:tA,purge others of toxins,Intelligence or Wits + Medicine + Life,Covert
+Puissant Skill,,,195,,Myst,gain Rote Quality to a Physical Skill,Dexterity + Medicine + Life,Covert
+Self-Healing,,,183,?,M:tA,heal yourself of Bashing and Lethal damage,Dexterity or Intelligence + Medicine + Life,Covert
+Self-Purging,,,183,,M:tA,purge yourself of diseases,Stamina + Medicine + Life,Covert
+Simulate Basic Needs,,,57,,Ban,remove effects of hunger and fatigue,Stamina + Survival + Life - Stamina,Covert
+Sustenance,,Spirit 2,140,(x)?,GoG,sustain body on food from Dreamtime,Resolve + Survival + (Lowest of Spirit or Life),Vulgar
+Transfer Base Features,,,184,(x),M:tA,copy features from one Base to another,Intelligence + Animal Ken or Survival + Life vs. Stamina,Vulgar
+Transform Base Life,,,184,(x),M:tA,alter lesser creatures into new forms,Intelligence or Resolve + Animal Ken or Survival + Life vs. Stamina,Vulgar
+Visions of the Living World,,,185,,M:tA,grant Mage Sight,Intelligence or Manipulation + Animal Ken or Survival + Life,Covert
+"Life 3, Disciple",,,,,,,,
+Banish Plague,,,185,,M:tA,purge others of diseases,Wits or Intelligence + Medicine + Life,Covert
+Body Mastery,,,"195, 32",,"Myst, GoG","heal faster, live longer, resist toxins",Stamina + Occult + Life,Covert
+Chemical Imbalance,,,65,,TotM,intoxicate target,Manipulation + Empathy + Life - Stamina,Covert
+Control Median Life,,,185,,M:tA,"dominate the will of lesser mammals, reptiles, insects",Presence or Manipulation + Animal Ken + Life,Covert
+Curse of Predation,,,138,s,TotM,"item crafting, curse",Presence + Crafts + Life,Covert
+Degrading the Form,,,186,(x),M:tA,degrade your physical attributes,Stamina or Resolve or Presence + Athletics + Life - Stamina,Vulgar
+Enforced Silence,,opt Mind 3,188,,GotV,prevent target from speaking,Resolve + Medicine + Life vs Stamina + Gnosis,Covert
+Feral Reflex,,Mind 3,180,,AA,use greater of Wits or Dexterity for Defense,Wits + Animal Ken + Life,Covert
+Gaia's Hold,,,180,(x),AA,entangle target with plant life,Wits + Science + Life,Vulgar
+Healing Heart,,,186,?,M:tA,heal others of Bashing or Lethal,Composure or Resolve + Medicine + Life,Covert
+Honing the Form,,,186,(x)?,M:tA,increase one physical attribute,Resolve + Athletics + Life - Stamina,Vulgar
+Image of Striking Beauty,,Mind 2,197,,SL,"make self more attractive, but still recognisably oneself",Presence + Expression + Life,Covert
+Induce Vertigo,,,58,,Ban,disorient and dizzy target with a touch,(n/a) - Stamina,Covert
+Inflict Agony,,,191,,SotT,gain successes on Interrogation attempt per success on casting,Strength + Intimidation + Life,Covert
+Metabolic Suspension,,Time 3,196,(x)?,Myst,make self immune to toxins/disease,Stamina + Survival + Time or Life,Vulgar
+Organic Shield,,,187,,M:tA,grant Shielding,Intelligence or Presence + Medicine + Life,Covert
+Palsy,,,189,(x),GotV,reduce target's Dexterity,Composure + Medicine + Life - Stamina,Vulgar
+Physical Reconfiguration,,opt Mind 1,198,,SL,grant oneself temporary Physical and Mental Merits,Resolve + Subterfuge + Life,Covert
+Scent of Nature,,,139,?,GoG,mask scent as natural to prevent animals from attacking,Wits + Animal Ken + Life,Covert
+Transfer Median Features,,,187,(x),M:tA,copy features from one median to another,Intelligence + Medicine + Life,Vulgar
+Transform Median Life,,,187,(x),M:tA,"alter the form of mammals, fish, reptiles, birds",Intelligence + Medicine + Life,Vulgar
+Transform Self,,,187,(x)?,M:tA,"gain features of mammals, fish, reptiles, birds",Stamina + Athletics + Life,Vulgar
+Trigger Autonomic Function,,,196,,Myst,activate bodily functions in touched target,Intelligence + Medicine + Life,Covert
+Two Faces,,,188,(x),M:tA,change cosmetic features,Wits + Subterfuge + Life,Vulgar
+Verminous Metamorphosis,,Matter 3,200,,M:tA,transform inanimate object into swarm of creatures,Wits or Intelligence + Animal Ken + Life,Vulgar
+"Life 4, Adept",,,,,,,,
+Accelerate Healing,,,180,(x)s,AA,spend Mana to heal Bashing or Lethal Damage,Stamina + Medicine + Life,Vulgar
+Animal Degradation,,,188,(x)?,M:tA,degrade Physical Attributes of median life,Resolve + Animal Ken + Life vs. Stamina,Vulgar
+Animal Minion,,,188,(x),M:tA,dominate body of medium creatures,Presence + Persuasion + Life vs. Resolve,Covert
+Bind the Wayward Body,,Space 1,124,(x)?,MT,lock a target into an area,Manipulation + Persuasion + Life vs. Resolve + Gnosis,Vulgar
+Contagion,,,188,?,M:tA,create a sickness or disease,Resolve or Intelligence + Medicine + Life,Covert
+Control Reactions,,Mind 2,189,,GotV,cause dramatic emotional response,Manipulation + Empathy + Life,Covert
+Doppelganger,,,188,(x),M:tA,alter physical features dramatically,Intelligence + Subterfuge + Life,Vulgar
+Enfeeblement,,,189,(x)?,M:tA,degrade one of target's Physical Attributes,Strength or Presence + Intimidation + Life,Vulgar
+Hone Another's Form,,,189,(x)?,M:tA,grant bonus to one of target's Physical Attributes,Intelligence + Medicine + Life,Vulgar
+Life Force Assault,,,190,(x),M:tA,inflict Lethal damage,Dexterity + Athletics + Life - Stamina,Vulgar
+Many Faces,,,190,(x),M:tA,change target's cosmetic features,Manipulation + Subterfuge + Life vs. Composure + Gnosis,Vulgar
+Perfect Mask,,Mind 3,190,(x),GotV,imitate another perfectly,Manipulation + Stealth + Life,Vulgar
+Shapechanging,,opt Matter 4/5,190,(x)?,M:tA,transform to animal shapes; might lose self in new midset,Stamina + Animal Ken + Life,Vulgar
+Skilled Triumph,,,197,?,Myst,gain Rote Quality to Physical Skills,Strength + Athletics + Life,Covert
+Supreme Honing,,,190,,M:tA,gain bonus to multiple Physical Attributes,Resolve + Athletics + Life,Vulgar
+Sustain Body,,,22,(x)?,AR,make up for lack of food and water,Stamina + Athletics + Life,Vulgar
+Transform Other,,,191,(x),M:tA,give target features of median or base life,Presence + Animal Ken + Life vs. Stamina + Gnosis,Vulgar
+Trigger the Lizard Brain,,,191,,M:tA,control instincts of human,Manipulation or Wits + Intimidation + Life vs. Resolve + Gnosis,Covert
+Uplift the Species,,,191,(x),M:tA,change base to median life,Intelligence + Medicine + Life vs. Stamina,Vulgar
+Venom,,,56,?,LHP,create deadly toxins,Resolve + Medicine + Life vs Stamina,Covert
+"Life 5, Master",,,,,,,,
+Animate Humunculus,,,151,(x),TotM,animate components of humunculus,Intelligence + Occult + Life,Vulgar
+Create Life,,,191,(x)?,M:tA,create complex biological organism,Resolve + Animal Ken + Life,Vulgar
+Evolutionary Shift,,,191,(x),M:tA,change base or median to human,Intelligence + Animal Ken + Life vs. Stamina,Vulgar
+Fantasia,,,192,(x)?,M:tA,alter existing life in dramatic ways,Intelligence + Academics + Life,Vulgar
+Ghastly Metamorphosis,,,30,(x)?,TotM,transform other to animal shape while inflicting Lethal damage,Strength or Presence + Animal Ken + Life,Vulgar
+Greater Shapechanging,,opt Matter 4/5,192,(x)?,M:tA,transform self and others to animal shapes safely,Stamina + Animal Ken + Life vs. Stamina + Gnosis,Vulgar
+Hereditary Change,,,192,(x)?,M:tA,alter living beings permanently,Intelligence or Resolve + Medicine + Life vs. Stamina,Vulgar
+Human Minion,,,193,(x)?,M:tA,dominate human bodies,Manipulation + Pursuasion + Life vs. Resolve + Gnosis,Vulgar
+Multitudinous Form,,,140,(x)?,GoG,transform into a swarm of insects,Intelligence + Animal Ken or Survival + Life,Vulgar
+Regeneration,,,193,(x)?,M:tA,regrow severed limbs,Intelligence + Medicine + Life,Vulgar
+Ultimate Degradation,,,193,(x),M:tA,lower multiple Physical Attributes of target,Strength + Athletics + Life vs. Resolve + Gnosis,Vulgar
+Ultimate Honing,,,193,(x)?,M:tA,grant bonus to other's multiple Physical Attributes,Presence + Medicine + Life,Vulgar
+Vital Balance,,Death 4,33,(x)?,GoG,slow aging dramatically,Intelligence + Occult + Life,Vulgar
+"Life 7, Archmastery",,,,,,,,
+"Life 8, Archmastery",,,,,,,,
+Proxy,,,39,,IM,create living sub-souls,,Unlisted
+"Life 9, Archmastery",,,,,,,,
+"Matter 1, Initiate",,,,,,,,
+Alter Conductivity,,,194,,M:tA,make or prevent conduction in a substance,Intelligence + Science + Matter,Covert
+Breach Point,,"Death 1, Space 1",181,,AA,use successes to pierce cover,Wits + Athletics + Matter,Covert
+Crafter's Eye,,,110,,FC,gain insight to make repairs,Wits + Crafts or Science + Matter,Covert
+Craftsman's Eye,,,194,,M:tA,analyze workings of mechanical operations,Intelligence + Investigation or Science + Matter,Covert
+Dark Matter,,,194,,M:tA,Mage Sight,Intelligence + Occult or Science + Matter,Covert
+Detect Substance,,,195,,M:tA,locate chosen substance in area,Wits + Composure + Matter,Covert
+Discern Composition,,,195,,M:tA,identify components of a substance,Wits or Intelligence + Crafts or Science + Matter,Covert
+Eye for Destruction,,Death 1,19,,TotM,increase effectiveness of strikes on an object,Wits + Crafts (for objects) or Occult (for the animate dead) + Matter,Covert
+Find the Hidden Hoard,,,195,,M:tA,locate hidden compartments in an object,Wits + Crafts + Matter,Covert
+Sense Poisons and Drugs,,Life 1,58,,Ban,detect and understand effects of substance,Resolve + Science + Matter,Covert
+"Matter 2, Apprentice",,,,,,,,
+Alter Accuracy,,,196,?,M:tA,grant 9-Again to a weapon,Composure + Crafts or Occult + Matter,Covert
+Control Object,,Spirit 1,198,,SL,make object perform function within the object's capabilities,Wits + Persuasion + Matter,Covert
+Deceptive Appearance,,Mind 2,197,(x),Myst,disguise object without changing function,Wits + Subterfuge + Matter,Vulgar
+Eyes of the Earth,,,196,,M:tA,grant Mage Sight,Wits or Presence + Occult or Science + Matter,Covert
+Find the Cornerstone,,Space 1,61,,L:tA,locate weak point in structure,Wits + Crafts + Matter - Size,Covert
+Loosen the Threads,,or Life 2,103,,GoG,"open locks, knots, loosen doors",Dexterity + Life + Matter,Covert
+Shape Liquid,,opt Forces 3,196,,M:tA,give Durability and form to liquids,Dexterity + Occult + Matter,Covert
+Steel Windows,,,197,(x),M:tA,make touched substance transparent,Intelligence + Crafts or Occult + Matter,Vulgar
+Temporary Repair,,,111,,FC,cause a broken machine to work,Intelligence + Crafts + Matter,Covert
+Transmute Water,,,197,(x),M:tA,alter composition of a liquid,Intelligence + Occult or Science + Matter,Vulgar
+Unseen Aegis,,,197,,M:tA,Shielding,Intelligence + Occult or Science + Matter,Covert
+Weaponize Object,,,181,?,AA,make Improvised Weapons formidable,Resolve + Crafts + Matter,Covert
+"Matter 3, Disciple",,,,,,,,
+Acidic Spatter,,Life 2,182,(x),AA,cause acid damage upon injury,Stamina + Medicine + Matter,Vulgar
+Alter Integrity,,,198,,M:tA,increase or decrease Durability,Intelligence or Wits + Crafts or Occult + Matter,Covert
+Alter Raiment,,,190,(x),GotV,change appearance of clothing,Wits + Crafts + Matter,Vulgar
+Animate Object,,,145,(x),S&S,grant object locomotion,Presence + Occult + Matter,Vulgar
+Armor Piercing,,,198,?,M:tA,grant weapon AP,Resolve or Wits + Crafts + Matter,Covert
+Backbite,,,190,,GotV,cause touched weapon to strike wielder,Intelligence + Firearms or Weaponry + Matter,Covert
+Books of Metal,,Prime 1,78,,L:tA,create a metallic Grimoire,Intelligence + Crafts + Matter,Covert
+Bundle Enhancements,,,128,,TotM,"item crafting, alternate relinquishment cost - all matter based finishing spells count as one spell",Intelligence + Crafts + Matter,Covert
+Enhance Toxin,,,192,,SotT,increase the Toxicity of a poison by 1/success,Intelligence + Animal Ken or Science + Matter,Covert
+Gift of the Unseen Aegis,,,294,,MET: Awakening,grant Shielding,Intelligence + Occult or Science + Matter,Unlisted
+Jury-Rig,,,198,,M:tA,transfuse properties of objects,Intelligence + Crafts + Matter,Covert
+Manufacture Drop,,Life 2,148,?,TotM,"item crafting, gross matter -",Intelligence + Medicine + Matter,Covert
+Manufacture Medication,,Life 2,147,?,TotM,"item crafting, gross matter - spell that acts on biology",Intelligence + Medicine + Matter,Covert
+Manufacture Oil or Jelly,,,147,?,TotM,"item crafting, gross matter -",Intelligence + Science + Matter,Covert
+Manufacture Powder,,Forces 2,147,?,TotM,"item crafting, gross matter - area effect spell",Intelligence + Science + Matter,Covert
+Manufacture Salve,,Life 2,147,?,TotM,"item crafting, gross matter -",Intelligence + Medicine + Matter,Covert
+Manufacture Spray,,,147,?,TotM,"item crafting, gross matter - spell that harms or manipulates an entity",Intelligence + Medicine + Matter,Covert
+Perfect Lock,,,191,(x),GotV,bind a sealed door to adjoining wall,Intelligence + Crafts + Matter,Vulgar
+Plasticity,,,199,(x),M:tA,make substance malleable,Dexterity + Crafts + Matter,Vulgar
+Reassembly,,Space 3,198,(x),Myst,summon pieces of an object to make it whole,Dexterity + Crafts + Matter,Vulgar
+Repair Object,,,199,,M:tA,restore Structure,Dexterity + Crafts + Matter,Covert
+Transmute Earth,,,200,(x),M:tA,alter composition of a substance,Intelligence + Occult or Science + Matter,Vulgar
+"Matter 4, Adept",,,,,,,,
+Alter Efficiency,,,201,?,M:tA,grant Equipment bonus to mechanical tool,Intelligence + Crafts or Science + Matter,Covert
+Annihilate Matter,,,201,(x),M:tA,inflict Structure damage to non-magical object,Resolve + Occult or Science + Matter,Vulgar
+Chimerical Manifestation,,"Mind 4, opt Prime 3",117,(x)?,AR,apport a regular/magical item from Astral Space,(n/a),Vulgar
+Duplication,,opt Forces 2 or Prime 3,198,(x)?,Myst,form object from pattern out of similar components,Intelligence + Crafts + Matter,Vulgar
+Fold Object,,Space 3,182,(x),AA,convert object to a two-dimensional image,Intelligence + Science + Matter,Vulgar
+Improve Quality,,,192,,SotT,"change appearance of object, but not efficiency",Wits + Occult or Science + Matter,Vulgar
+Lesser Transmogrification,,,201,(x),M:tA,change liquids to solids,Intelligence + Occult or Science + Matter,Vulgar
+Reconfigure Object,,,201,(x),M:tA,change form of object,Dexterity + Crafts + Matter,Vulgar
+Secret Compartment,,,58,,Ban,create a hidden hollow area in solid matter,Intelligence + Crafts + Matter,Covert
+Shape Air,,opt Forces 3,201,,M:tA,alter form of gaseous substances,Stamina + Occult + Matter,Covert
+Stone Servitor,,Mind 5,32,(x)?,TotM,animate sentient golem,Intellience + Crafts + Matter,Vulgar
+The Golem,,"Fate 2, opt Mind 5",41,(x),MT,animate statue servitor,Intelligence + Crafts + Matter,Vulgar
+Transmute Air,,,202,(x),M:tA,alter composition of gaseous substance,Stamina + Occult + Matter,Vulgar
+Transmute Gold,,,202,(x),M:tA,alter substance to precious metals,Wits + Occult or Science + Matter,Vulgar
+Transubstantiation of Content,,Mind 3,199,(x),Myst,convert medium of information,Intelligence + Crafts + Matter,Vulgar
+"Matter 5, Master",,,,,,,,
+Alter Size,,,203,(x),M:tA,increase or decrease Size of object,Intelligence + Occult or Science + Matter,Vulgar
+Annihilate Extraordinary Matter,,,203,(x),M:tA,inflict Structure damage to any object,Resolve + Occult or Science + Matter,Vulgar
+Chimerical Conjuration,,"Mind 4, opt Prime 4",118,(x)?,AR,tear an object from Astral Space,(n/a),Vulgar
+Construct Homunculus Form,,,149,(x)s,TotM,accumulate components of homonculus,Intelligence + Crafts + Matter,Vulgar
+Forge Thaumium,,Prime 3,203,(x)?,M:tA,"item crafting, alloy",Dexterity + Occult + Matter,Vulgar
+Greater Transmogrification,,,204,(x),M:tA,change liquids to solids to gasses,Intelligence + Science + Matter,Vulgar
+Petrification,,Life 4,61,(x)?,L:tA,turn target to stone,Manipulation + Crafts + Matter,Vulgar
+Raw Creation,,,204,(x)?,M:tA,create substance,Resolve or Intelligence + Science + Matter,Vulgar
+Self-Repairing Machine,,,204,(x),M:tA,grant object ability to regenerate Structure,Composure or Presence + Crafts + Matter,Vulgar
+"Matter 6, Archmastery",,,,,,,,
+Aperion,,,34,,IM,create material that can have all properties and none,,Unlisted
+"Matter 7, Archmastery",,,,,,,,
+"Matter 9, Archmastery",,,,,,,,
+"Mind 1, Initiate",,,,,,,,
+Aura Perception,,,205,,M:tA,view emotional states as colors,Wits + Empathy + Mind,Covert
+Detect Alien Mind,,Prime 1,209,,Summ,track emotional resonance and presence of otherworldly being,Wits + Investigation + Mind,Covert
+Know Virtue,,,103,,KST,know target's Virtue,Wits + Empathy + Mind,Covert
+Mask of Normality,,,143,,TotM,"item crafting, sleepers perceive unusual item as normal",Intelligence + Crafts + Mind,Covert
+Merge Mind,,,59,,Ban,"center your mind and silence ""voices""",Wits + Expression + Mind,Covert
+"One Mind, Two Thoughts",,,206,,M:tA,undertake two mental actions,Wits + Investigation + Mind,Covert
+Sense Consciousness,,,206,,M:tA,be aware of all entities in area,Wits + Empathy + Mind,Covert
+Third Eye,,,206,,M:tA,Mage Sight,Wits or Presence + Empathy or Occult + Mind,Covert
+"Mind 2, Apprentice",,,,,,,,
+Alter Aura,,,207,,M:tA,falsify your emotional aura,Manipulation or Composure + Subterfuge + Mind,Covert
+Beast Control,,,207,,M:tA,dominate lesser life forms,Presence + Animal Ken + Mind vs. Resolve,Covert
+Control Waking,,,191,,GotV,make target sleep deeper or wake,Intelligence + Persuasion + Mind - Resolve,Covert
+Delayed Rest,,opt Life 2,192,,GotV,go for extended time without sleep,Resolve + Investigation + Mind,Covert
+Directory Enquiry,,Forces 1,53,,RotE,learn a telephone number from a phone you can see,Wits + Science + Mind,Covert
+Don Spirit Mask,,Death 2 and/or Spirit 2,210,,Summ,disguise own essence as Ghost or Spirit,Manipulation + Subterfuge + Mind,Covert
+Eagle-Eye View,,Space 2,182,,AA,+1/success to Initiative,Intelligence + Academics + Mind,Covert
+Emotional Urging,,,207,,M:tA,alter the emotional state of others,Manipulation or Wits or Presence + Empathy or Persuasion + Mind vs. Composure + Gnosis,Covert
+Euphoria,,,192,,SotT,"block out pain to reduce wound penalties, stay conscious",Manipulation + Persuasion + Mind,Covert
+False Speech (lesser),,Forces 2,25,(x),TotM,distort sound in an area,Manipulation + Expression + Mind,Vulgar
+First Impressions,,,208,,M:tA,bonus to first social interaction,Presence + Socialize + Mind,Covert
+Gain Skill,,,111,?,FC,gain increase to a Skill to a limit of 5,Wits + Science + Mind,Covert
+Hurried Rest,,Life 2,192,,GotV,catch up on sleep quickly,Stamina + Investigation + Mind,Covert
+Incognito Presence,,,208,,M:tA,make self less noticeable,Wits + Subterfuge + Mind,Covert
+Inconspicuous Object,,Matter 2,22,,TotM,make object less noticeable,Resolve + Larceny + Mind,Covert
+Inspire,,,192,,GotV,telepathically insert one idea into target's mind,Manipulation + Expression + Mind vs. Resolve + Gnosis,Covert
+Memory Hole,,,208,,M:tA,forget something temporarily,Composure + Occult + Mind,Covert
+Mental Shield,,,208,,M:tA,"gain Armor against psychic effects, pierce illusions with reflexive Gnosis + Mind",Resolve + Occult + Mind,Covert
+Misperception,,,209,,M:tA,Shielding,Manipulation + Stealth + Mind,Covert
+Moment of Doubt,,,193,,GotV,inspire doubt in target,Manipulation + Intimidation + Mind - Composure,Covert
+Opening the Lidless Eye,,,209,,M:tA,grant Mage Sight,Presence or Wits + Persuasion + Mind,Covert
+Perfect Mnemonic,,,199,,Myst,brand information into own mind,Manipulation + Expression + Mind,Covert
+Phantom Thoughts,,,183,,AA,mask thoughts with false imagery,Resolve + Subterfuge + Mind,Covert
+Playback Vision,,,138,,MT,record hallucinatory experience,Stamina + Expression + Mind,Covert
+Stammer,,,59,,Ban,cause target to slightly mispronounce Words of Power,Resolve + Occult + Mind,Covert
+Voice from Afar,,,210,,M:tA,send short telepathic message,Manipulation or Presence + Expression + Mind - Resolve,Covert
+Willful Process,,,200,,Myst,gain Rote Quality to a Mental or Social Skill,Wits + Academics + Mind,Covert
+Zeal,,,193,,SotT,"gain +2 extra dice when spending Willpower, defer Degeneration until spell expires",Manipulation or Resolve + Expression + Mind,Covert
+"Mind 3, Disciple",,,,,,,,
+Astral Entrance,,,23,,AR,mark an Astral location to make it easier to find,Intelligence + Survival or Streetwise + Mind,Covert
+Astral Invitation,,,22,,AR,allow others to descend to your Oneiros,Resolve + Empathy + Mind,Covert
+Augment the Mind,,,210,?,M:tA,gain increase to a Mental or Social Attribute,Resolve + Academics + Mind,Covert
+Aura Cloak,,,211,,M:tA,falsify others emotional aura,Manipulation + Subterfuge + Mind,Covert
+Bestow High Speech,,Prime 3,98,,Myst,target can speak and understand High Speech,Wits + Expression + Mind,Covert
+Bestow Skill,,,111,(x)?,FC,grant target Skill up to limit of 5,Wits + Persuasion + Mind,Vulgar
+Bolster Virtue,,,103,,KST,strengthen virtuous use of Willpower for self,Presence + Empathy + Mind,Covert
+Curse of Dementia,,,138,5?,TotM,"item crafting, curse",Presence + Crafts + Mind,Covert
+Curse of Ostracism,,,138,5?,TotM,"item crafting, curse",Presence + Crafts + Mind,Covert
+Defer Conscience,,Time 3,183,,AA,postpone morality checks to end of scene,Resolve + Intimidation + Mind,Covert
+Denial of Senses,,,193,,GotV,reduce target's Reflexive Perception rolls,Intelligence + Subterfuge + Mind,Covert
+Diplomat's Protection,,,200,,SL,prevent creatures of weak Resolve from attacking you,Wits + Expression + Mind,Covert
+Directed Havoc,,,141,,TotM,"item crafting, defense",Intelligence + Occult + Mind,Covert
+Disinhibiting Sympathy,,Space 3,57,?,GoG,force target and associates to roll to avoid acting on Vice,Manipulation + Expression + Mind,Covert
+Disrupt Concentration,,,23,,AR,impose penalties to efforts of concentration,Manipulation + Intimidation + Mind,Covert
+Enforce Paradigm,,,65,?,TotM,prevent Sleeper from seeing or realizing supernatural events,Presence + Occult + Mind,Covert
+Eternal Now,,,200,,Myst,prevent target from having new memories,Wits + Subterfuge + Mind,Covert
+Eyes of the Master,,Space 2,193,,GotV,view within a familiar structure,Perception + Empathy + Mind,Covert
+False Fame,,,66,,TotM,foster belief of celebrity around self,Manipulation + Socialize + Mind,Covert
+False Speech (greater),,Forces 3,25,(x),TotM,make conversation in an area sound innocuous,Manipulation + Expression + Mind,Vulgar
+Goetic Inversion,,,107,,I:EwtA,target must fight mental battle to enact their own virtue,Presence + Intimidation + Mind vs Resolve + Gnosis,
+Goetic Struggle,,,324,,M:tA,fight inner demons to gain willpower,Presence + Intimidation or Occult + Mind,Covert
+Greater Beast Control,,,211,,M:tA,dominate lesser lifeforms,Presence + Animal Ken + Mind vs. Resolve,Covert
+Implant Subliminal Message,,Forces 2 or Matter 2,194,,GotV,affect reaction to media,Wits + Subterfuge + Mind vs. Composure + Gnosis,Covert
+Imposter,,,211,,M:tA,appear to be someone else,Intelligence + Subterfuge + Mind vs. Composure + Gnosis,Covert
+Induce Hoarding Instinct,,,138,?,TotM,"item crafting, curse",Manipulation + Crafts + Mind,Covert
+Induce Sleep,,Life 2,201,,Myst,cause target to become sleepy,Manipulation + Persuasion + Mind,Covert
+Kinesthesia,,"Space 1, Time 1",183,,AA,"gain bonus against multiple attackers, partially negate environmental penalties",Composure + Athletics + Mind,Covert
+Know the Truth,,Time 2,69,,L:tA,verify accuracy of a document,Wits + Investigation + Mind,Covert
+Know Thyself,,,194,,GotV,determine if own memory was altered,Wits + Empathy + Mind,Covert
+Lift the Astral Barrier,,,23,?,AR,pay the cost of the Astral Threshold for others,Manipulation + Empathy + Mind,Covert
+Mental Wall,,,211,,M:tA,grant Armor against psychic effects,Presence + Occult + Mind,Covert
+Multi-Tasking,,,211,,M:tA,undertake multiple mental actions,Intelligence + Academics + Mind,Covert
+Passion Link,,,195,,GotV,create emotional connection with topic,Composure + Subterfuge + Mind vs. Composure + Gnosis,Covert
+Past Life Regression,,Time 3,105,?,MT,experience events from possible past life,Presence + Occult + Mind,Covert
+Precious Malediction,,,137,?,TotM,"item crafting, curse",Manipulation + Persuasion + Mind,Covert
+Preserve Astral Object,,,24,,AR,prevent object from changing with Astral,Intelligence + Science or Occult + Mind,Covert
+Preserve Astral Space,,,25,,AR,prevent location from changing with Astral,Intelligence + Survival or Academics + Mind,Covert
+Provoke Wrath,,,193,,SotT,"overwhelm target's ability to stay calm, defer Degeneration till end of duration",Manipulation + Persuasion + Mind,Covert
+Psychic Assault,,,212,,M:tA,inflict Bashing damage psionicaly,Resolve + Intimidation + Mind - Resolve,Covert
+Read Trends,,opt Time 2,195,,GotV,determine general public opinion,Perception + Empathy + Mind,Covert
+Seal Oneiros,,,24,,AR,create Ward on Oneiros,Resolve + Academics + Mind,Covert
+Shackled Morality,,,117,?,GoG,target can not regain Willpower from Virtue,Manipulation + Empathy + Mind,Covert
+Shroud of Disinterest,,,142,?,TotM,"item crafting, defense",Manipulation + Subterfuge + Mind,Covert
+Sleep of the Just,,,212,,M:tA,control sleep and dreams,Composure + Occult + Mind,Covert
+Summon Esoteric,,,54,,Summ,call an esoteric (conscious desire) to Twilight,Manipulation + Empathy + Mind,Covert
+Summon Morphean,,,52,,Summ,call a dream-fragment out of Oneiros to Twilight,Manipulation + Subterfuge + Mind,Covert
+Telepathic Alarm,,,141,,TotM,"item crafting, defense",Intelligence + Occult + Mind,Covert
+Telepathic Eavesdropping,,,196,,GotV,overhear telepathic conversations,Wits + Empathy + Mind,Covert
+Telepathy,,,212,,M:tA,create telepathic link,Wits + Empathy + Mind vs. Resolve + Gnosis,Covert
+The Inescapable Question,,,34,,L:tA,halt target as they ponder question,Manipulation + Persuasion + Mind,Covert
+Transfer Will,,,66,,TotM,allow others to pay relinquishment costs,Intelligence + Occult + Mind,Covert
+Universal Language,,,213,,M:tA,understand any language,Intelligence + Academics + Mind,Covert
+Will of Fire,,,44,?,L:tA,grant others Willpower through oratory,Presence + Expression + Mind,Covert
+"Mind 4, Adept",,,,,,,,
+Astral Interdiction,,,25,,AR,prevents target from entering Astral Space,Presence + Expression + Mind,Covert
+Augment Other Minds,,,213,(x)?,M:tA,grant increase to Mental or Social Attribute,Resolve + Persuasion + Mind,Vulgar
+Autopilot,,Matter 3,67,(x)?,TotM,give vehicle limited sentience,Intelligence + Mind + Mind,Vulgar
+Befuddle,,,213,?,M:tA,decrease targets Mental or Social Attribute,Manipulation + Persuasion + Mind,Covert
+Breach the Vault of Memory,,,214,,M:tA,search subject's subconscious,Manipulation + Subterfuge + Mind vs. Resolve + Gnosis,Covert
+Call Eidolon,,Spirit 4,59,(x)?,Ban,"call upon Virtue, as with ""Goetic Evocation""",Resolve + Empathy + Mind,Vulgar
+Climbing the Tree,,Any 3,43,,MT,journey to an Astral Realm representing Arcana's purview,Resolve + Occult + Mind,Covert
+Confuse Language,,,61,,Ban,deprive target of the abstract concepts of language,Intelligence + Occult + Mind,Covert
+Dream Bridge,,,25,,AR,connect Oneiroi of targets,None Listed,Covert
+Dream Traveler,,,214,,M:tA,project into target's dreams,Manipulation + Occult + Mind vs. Composure + Gnosis,Covert
+Gleaning the Crowd,,,139,(x)?,MT,gain Skill from group mind,Presence + Occult + Mind,Vulgar
+Goetic Doppelganger,,Spirit 4,117,(x)2,GoG,summon Goetic Evocation (see Spirit section) of target,Resolve + Empathy + Mind,Vulgar
+Hallucination,,,215,,M:tA,falsify senses of target,Intelligence or Wits + Subterfuge + Mind vs. Resolve + Gnosis,Covert
+Knowing the Dead,,Death 2,201,,Myst,Read the Depths of a ghost's mind,Manipulation + Investigation + Mind vs. Resistance,Covert
+Lashes of Fire,,"Forces 4, Fate 2",42,(x)?,MT,harm target whenever Morality drops,Presence + Intimidation + Mind,Vulgar
+Living Library,,opt Forces 3 or Matter 3,22,,S&S,store information in subconscious,Intelligence + Academics + Mind,Covert
+Love Spell,,,67,,TotM,become irresistible to target,Presence + Socialize + Mind,Covert
+Memory Oath,,"Fate 2, Time 2; opt Space 2",196,,GotV,trigger memory loss if violated,Manipulation + Subterfuge + Mind vs. Resolve + Gnosis,Covert
+Opening the Dream Space,,,26,,AR,enter another's Oneiros instead of your own,Manipulation + Subterfuge + Mind,Covert
+Psychic Projection,,,215,(x)?,M:tA,travel mentally in Twilight,Resolve + Occult + Mind,Vulgar
+Psychic Sword,,,216,,M:tA,inflict Lethal damage psionicaly,Presence or Strength + Intimidation + Mind - Resolve,Covert
+Psychic Violation,,,143,(x),L:tS,paralyze and drain target's Willpower with terror,Presence + Intimidation + Mind (Instant),Vulgar
+Purge Oneiros,,,27,,AR,remove non-natives from you Oneiros,Presence + Expression + Mind,Covert
+Read the Depths,,,215,,M:tA,enter another's subconscious,Manipulation + Empathy + Mind vs. Composure + Gnosis,Covert
+Reinforce the Lie,,,194,,SotT,"if Sleepwalker's resistance overcome, they count as Sleeper for the duration",Manipulation + Persuasion + Mind,Covert
+Seal Other's Oneiros,,,26,,AR,create Ward on other's Oneiros,Presence + Science + Mind,Covert
+Severed Sense,,,197,(x),GotV,turn off target's senses,Intelligence + Subterfuge + Mind,Vulgar
+Shape Soul Stone,,,68,(x),TotM,alter form of a Soul Stone,Intelligence + Crafts + Mind,Vulgar
+Silver Threads,,Space 4,27,,AR,link a group to make finding each other easy,Manipulation + Socialize + Mind,Covert
+Skeptic,,,184,,AA,"cause Sleeper to give 9-Again on Paradox rolls, make Improbable spells Vulgar",Resolve + Occult + Mind,Covert
+Skill Mastery,,,111,?,FC,gain increase of multiple Skills up to limit of Gnosis,Wits + Persuasion + Mind,Covert
+Summon Astral Archtype,,,56,,Summ,call incarnation of universal concept into Twilight,Presence + Persuasion + Mind,Vulgar
+Suppress Wisdom,,,68,,TotM,undertake one Wisdom sin without consequence,Resolve + Occult + Mind (Self),Covert
+Supreme Augmentation,,,216,?,M:tA,gain increase to multiple Mental and Social Attributes,Resolve + Academics + Mind,Covert
+Telepathic Control,,,216,?,M:tA,dominate target's mind,Manipulation + Persuasion + Mind vs. Resolve + Gnosis,Covert
+Triumphant Will,,,201,?,Myst,gain Rote Quality on Mental or Social Skills,Intelligence + Occult + Mind,Covert
+Virtual Voyage,,Forces 2,112,(x),FC,project mind of self and others into internet,Intelligence + Science or Computers + Mind,Vulgar
+"Mind 5, Master",,,,,,,,
+Astral Imprisonment,,,27,?,AR,target can't move in or out of Astral Space,Manipulation or Presence + Subterfuge or Expression + Mind,Covert
+Casual Brutality,,,118,?,GoG,temporarily reduce target's Morality,Manipulation + Empathy + Mind,Covert
+Construct Homunculus Persona,,,150,(x)3,TotM,create conscious of homunculus,Manipulation + Empathy + Life,Vulgar
+Dream Network,,,28,,AR,create multiple Dream Bridges,Presence + Socialize + Mind,Covert
+Goetic Manifestation,,Spirit 5,95,,GoG,bind your Vice as a Goetic Familiar,Presence + Occult + Mind,Vulgar
+Network,,,217,,M:tA,link many with telepathic contact,Presence + Empathy + Mind,Covert
+Nightmare Journey,,,144,?,L:tS,project target's mind into the Abyss,Resolve + Occult + Mind,Covert
+No Exit,,,61,2?,Ban,"force target's brain into a continuous loop, permanently",Intelligence + Expression + Mind,Covert
+Possession,,,217,(x)?,M:tA,project into target's body,Manipulation + Persuasion + Mind vs. Resolve + Gnosis,Vulgar
+Psychic Dominion,,,217,,M:tA,dominate target's mind,Presence or Wits + Intimidation + Mind vs. Resolve + Gnosis,Covert
+Psychic Genesis,,,218,(x)?,M:tA,create free consciousness,Intelligence + Empathy + Mind,Vulgar
+Psychic Reprogramming,,,218,(x)?,M:tA,rewrite memories and personality of target,Manipulation + Persuasion + Mind vs. Composure + Gnosis,Vulgar
+Shadow Projection,,,218,(x)?,M:tA,mentally project into the Shadow,Resolve + Occult + Mind,Vulgar
+Sin Eating,,,48,,GoG,possibly consume Morality Sin of target,Manipulation + Empathy + Mind,Covert
+Temenos Sanctuary,,,19,,L:tS,create bulwarks in Astral Realm,Composure + Occult + Mind,Covert
+The Book of Self,,Matter 5,197,(x)?,GotV,imprint own mind into a book,Presence + Occult + Mind,Vulgar
+Twilight Temple,,,219,(x),M:tA,create bulwarks in Twilight,Composure + Occult + Mind,Vulgar
+"Mind 7, Archmastery",,,,,,,,
+Soulwalker,,,37,,IM,allow subject to enter the Astral,N/A,Unlisted
+"Mind 9, Archmastery",,,,,,,,
+"Prime 1, Initiate",,,,,,,,
+Analyze Enchanted Item,,,219,,M:tA,"learn properties of Imbued, Enhanced or Artifact items",Intelligence + Occult + Prime,Covert
+Chronicle Resonance,,Time 2,20,,TotM,determine past magical events,Wits + Investigation + Prime,Covert
+Copy Grimoire,,Matter 1,48,,Myst,"copy Grimoire, even if not understood",Intelligence + Crafts + Prime,Unlisted
+Detect Banisher,,,62,,Ban,identify Banisher signatures,Wits + Composure + Prime,Covert
+Discern Phantasm,,,220,,M:tA,identify unreal objects,Wits + Occult + Prime,Covert
+Dispel Magic,,Any 1,220,?,M:tA,unweave existing spells,Intelligence or Composure + Occult + Prime vs Potency,Covert
+Ephemeral Postcognition,,Time 2,210,,Summ,view recent past of Ephemeral entity,Wits + Occult + Time,Covert
+Gauge Essence,,Death 1 and/or Life 1 and/or Spirit 1,210,,Summ,"determine quality and quantity of Essence held in a creature, place or object",Wits + Empathy + Prime,Covert
+Inscribe Grimoire,,,220,,M:tA,create Grimoire from known Rote,Intelligence + Expression + Prime,Covert
+Supernal Vision,,,221,,M:tA,"Mage Sight, identify nature of aura",Wits + Occult + Prime,Covert
+"Prime 2, Apprentice",,,,,,,,
+Activate Enchanted Item,,,221,,M:tA,trigger Imbued Item at distance,Intelligence + Investigation + Prime,Covert
+Cleanse Aura,,opt Life 2,189,,IEwtA,remove outside influence from aura,Manipulation + Occult + Prime,Covert
+Counterspell Prime,,,222,?,M:tA,unweave spell being cast,Composure or Resolve + Occult + Prime,Covert
+Ephemeral Image,,,200,(x),SL,create two-dimensional illusion over flat surface,Intelligence + Expression + Prime,Vulgar
+Locate Node,,,124,,MT,determine if a Node is in the area,Wits + Occult + Prime,Covert
+Magic Shield,,,222,s,M:tA,gain Armor against Supernal magic,Resolve + Occult + Prime,Covert
+Manipulate Contingent Trigger,,Fate 2,194,,SotT,alter the trigger of an Imbued Item,Wits + Occult + Prime,Covert
+Paths of Power,,,139,,GoG,"see Ley Lines, or sense nearest",Wits + Occult + Prime,Covert
+Primal Flow,,,222,,M:tA,grant Mage Sight,Manipulation + Occult + Prime,Covert
+Shadow Chess,,Spirit 3 or 5,124,(x)?,TotM,manifest Spirits for Duel Arcane,NA,See text
+Sigilization,,,37,,S&S,imprint Aura onto object,Presence + Expression + Prime,Covert
+Spell Cloaks,,any conjunctional arcanum,70,+?,TotM,makes spells invisible to a mage?s Unseen Senses and makes it harder for Mage Sight to reveal the spell,(adjunct),(adjunct)
+Squaring the Circle,,,223,?,M:tA,form grounds for Duel Arcane,Resolve + Occult + Prime,Covert
+Supernal Script,,opt Any 1,202,,Myst,write text only the Sighted can detect,Wits + Expression + Prime,Covert
+Transform Aura,,,223,,M:tA,falsify nature of aura,Intelligence + Occult + Prime,Covert
+Unseen Spy,,,223,,M:tA,scrutinize spells without detection,Composure + Subterfuge + Prime,Covert
+"Prime 3, Disciple",,,,,,,,
+Armor of the Soul,,,223,,M:tA,gain Armor against soul manipulation,Composure or Resolve + Occult + Prime,Covert
+Astral Tass Conversion,,,28,,AR,reserve Tass for Astral travels,Intelligence + Occult + Prime,Covert
+Celestial Fire,,,224,(x),M:tA,inflict Bashing/Lethal damage,Dexterity + Occult + Prime,Vulgar
+Channel Mana,,,224,,M:tA,draw Mana from Tass or Hallow,Wits or Manipulation or Resolve + Occult or Medicine + Prime,Covert
+Controlled Dispellation,,,224,,M:tA,exempt targets from existing spell,Resolve + Occult + Prime,Covert
+Create Tass,,,224,?,M:tA,form Mana into a solid shape,Resolve + Crafts or Occult + Prime,Covert
+Disguise Resonance,,,225,,M:tA,falsify Resonance of an area,Composure + Subterfuge + Prime,Covert
+Disguise Spell,,,68,?,TotM,falsify aspects of a spell,Intelligence + Investigation + Prime,Covert
+Dissolve Tass,,,225,,M:tA,destroy Tass,Resolve + Occult + Prime,Covert
+Energetic Tass,,Forces 3,69,?,TotM,form Mana into a Forces pattern,Wits + Science + Prime,Covert
+Ephemeral Enchantment,,,225,(x),M:tA,allow physical object to affect Twilight and Shadow,Resolve + Occult + Prime,Vulgar
+False Signature,,opt Any 1-5,184,?,AA,disguise Arcana used in combined spell,Wits + Subterfuge + Prime,Covert
+Fortify Phantasmal Item,,,27,,TotM,grant weak Phantasm an Equipment Bonus,Intelligence + Crafts + Prime,Covert
+Girding the Champion's Faith,,,88,(x),MT,"gain +2 Armor, downgrade Agg to Lethal",Wits + Occult + Prime,Vulgar
+Hallow Bond,,,94,?,S&S,prevent others from using Hallow,Composure + Occult + Prime,Covert
+Imbue Animal,,Life 3,62,,Ban,create Imbued Animals; sin against Wisdom 5,Manipulation + Animal Ken + Prime,Vulgar
+Imbue Item,,,225,,M:tA,create Imbued Item,Composure + Crafts + Prime,See text
+Imbue Mana,,,226,v/s,M:tA,transfer Mana to others,Presence + Persuasion + Prime,Covert
+Instill Exclusiveness,,,142,???(3),TotM,"item crafting, defense",Intelligence + Occults + Prime,Covert
+Item Failsafe,,,141,,TotM,"item crafting, defense",Intelligence + Crafts + Prime,Covert
+Last Testament,,,143,,TotM,"item crafting, defense",Intelligence + Crafts + Prime,Covert
+Ley Lines,,,226,,M:tA,create Node from Ley Line juncture to produce power,Intelligence + Occult or Science + Prime,Covert
+Ley Shift,,,97,?,S&S,alter direction of Ley Line,Strength + Occult + Prime,Covert
+Magic Wall,,,227,,M:tA,grant other Armor against Supernal magic,Manipulation + Occult + Prime,Covert
+Mana Leech,,,139,?,TotM,"item crafting, curse",Intelligence + Crafts + Prime,Covert
+Marked Power,,Space 2,62,?,Ban,"implant signature into Hallow's tass, creating sympathy to users",Resolve + Occult + Prime,Covert
+Mystic Shackle,,,139,s,TotM,"item crafting, curse",Intelligence + Crafts + Prime,Covert
+Path in the Skin,,Life 2/3,69,,TotM,create Tool tattoo,Dexterity + Crafts + Prime,Covert
+Payment in Power,,,129,20?,TotM,"item crafting, alternate cost relinquishment - spend mana",Intelligence + Occult + Prime,Covert
+Phantasm,,,227,(x)?,M:tA,create small unreal object,Intelligence + Crafts + Prime,Vulgar
+Price of Hubris,,Any 1,63,?,Ban,"as Counterspell, but if successful, redirect attack to caster",Composure + Occult + Prime,Covert
+Reset Platonic Exemplar,,,133,?,TotM,unweave all spells in a Platonic Exemplar,Intelligence + Occult + Prime,Covert
+Subvert Ownership,,,145,?,TotM,choose new authorized user of item,Wits + Subterfuge + Prime,Covert
+Target Interloper,,,140,?,TotM,"item crafting, defense",Intelligence + Occult + Prime,Covert
+Temporal Phantasm,,Time 2,202,(x)?,Myst,create Phantasm from past template,Intelligence + Occult + Time,Vulgar
+Transform Other Aura,,,227,,M:tA,falsify others aura nature,Intelligence + Occult + Prime,Covert
+Tribute of Iron,,Death 1,76,,MT,gain Mana from death as if sacrifice,Strength + Occult + Prime,Covert
+"Prime 4, Adept",,,,,,,,
+Annihilate Spells,,Time 3,62,?,Ban,counter all hung and Prolonged spells on target with touch,Resolve + Occult + Prime,Covert
+Awaken Hallow,,,228,?,M:tA,waken a dormant Hallow,Composure + Survival + Prime,Covert
+Bodyguard's Blessing,,,184,?,AA,redirect next spell target casts to yourself,Wits + Occult + Prime,Covert
+Channel Paradox,,Life 3,47,,GoG,redirect Paradox from others to self,Stamina + Occult + Prime,Covert
+Curse of the Fallen World,,,64,?,Ban,"all of target's spells are Vulgar, uncloak Nimbus and give +1 to Paradox rolls",Resolve + Occult + Prime,Covert
+Delusions of Grandeur,,,64,,Ban,"target may spend one additional mana per turn, but all Mana expenditures are doubled",Wits + Occult + Prime - Resistance,Covert
+Disenchant Item,,,144,?,TotM,unweave spells in enchanted item,Intelligence + Occult + Prime,Covert
+Eyes of the Awakened,,,228,,M:tA,Sleeper does not suffer Disbelief,Manipulation + Empathy + Prime,Covert
+Ley Flow,,,98,?,S&S,alter strength of Ley Line,Composure + Occult + Prime,Covert
+Marionette,,,228,(x),M:tA,create lifelike animal/human phantasm,Intelligence + Subterfuge + Prime,Vulgar
+Phantasmal Weapon,,,228,(x)?,M:tA,create solid armor/weapon phantasm,Intelligence + Crafts + Prime,Vulgar
+Pierce Magical Shield,,,64,,Ban,"Armor Piercing (Shielding spells only), 1 / Potency",Composure + Athletics + Prime,Covert
+Poison Mana,,,65,(x)?,Ban,taint points of Mana in a Hallow to cause Lethal damage when used,Presence + Expression + Prime,Vulgar
+Primal Transfer,,,78,(x)?,L:tA,item crafting; alternate relinquishment; let other pay willpower dot,Resolve + Empathy + Prime,Vulgar
+Scour Other's Pattern,,Life 3,70,(x)?,TotM,transfer Mana from others,Presence + Intimidation + Prime - Stamina,Covert
+Siphon Essence,,,229,(x),M:tA,transfer Mana from Spirit,Resolve + Occult + Prime - Resistance,Vulgar
+Siphon Integrity,,,229,(x),M:tA,transfer Mana from object,Resolve or Strength + Occult + Prime,Vulgar
+Supernal Augumentation,,Life 3 or Matter 3,185,(x),AA,spend Mana before you roll to make unarmed/armed attacks Aggravated during the scene,Strength + Intimidation + Prime,Vulgar
+Supernal Dispellation,,,229,,M:tA,unweave any existing spell,Resolve + Occult + Prime vs Potency,Covert
+Suppress Enchantment,,,203,,Myst,deactivate power of Imbued Item/Artifact,Wits + Occult + Prime,Covert
+Suppress Hallow,,,229,,M:tA,reduce Mana generation of Hallow,Presence + Survival + Prime,Covert
+Tainted Source,,,65,s?,Ban,taint points of Mana in a Hallow to cause users to only spend 1/turn while any remains in their pool,Resolve + Occult + Prime,Covert
+"Prime 5, Master",,,,,,,,
+Concealing the Dragon's Path,,,103,(x)?,GoG,"hide a ley line, permanently",Intelligence + Survival + Prime,Vulgar
+Create Complex Phantasm,,,230,(x),M:tA,create solid complex phantasm,Intelligence + Crafts + Prime (objects) or Intelligence + Medicine + Prime (people),Vulgar
+Create Hallow,,,230,(x)?,M:tA,create Hallow (with prolonged duration),Composure + Occult + Prime,Vulgar
+Dead Zone,,,230,(x),M:tA,remove ambient Mana from area,Composure + Occult + Prime,Vulgar
+Dessicate,,Life 3,65,(x),Ban,"drain target of Physical Attributes, Mana or Health",Wits + Occult + Prime vs Resolve + Composure,Vulgar
+Forge Tulpa,,Mind 5,231,(x),M:tA,create lifelike sentient phantasm,Wits or Presence + Occult + Prime,Vulgar
+Halt the Flow,,,66,(x)s,Ban,destroy a Hallow,Composure + Occult + Prime,Vulgar
+Scorched Earth,,,66,s?,Ban,increase a Dead Zone to severely hinder spellcasting permanently,Composure + Occult + Prime,Covert
+Siphon Mana,,,231,(x),M:tA,transfer Mana from unwilling Mages,Resolve or Composure + Intimidation + Prime - Stamina,Vulgar
+Supernal Sense,,Space 3,71,?,TotM,become aware of all magic in area,Wits + Empathy + Prime,Covert
+Universal Bane,,,67,(x)?,Ban,enchant weapon or ammunition to inflict Aggravated; object is destroyed at end of spell,Intelligence + Occult + Prime,Vulgar
+"Prime 7, Archmastery",,,,,,,,
+"Space 1, Initiate",,,,,,,,
+Angle Vision,,,197,,GotV,view around corners,Wits + Investigation + Space,Covert
+Correspondence,,,232,,M:tA,sense sympathetic connection between two subjects,Wits + Occult + Space,Covert
+Finder,,,233,,M:tA,locate object in area,Intelligence + Investigation + Space,Covert
+Omnivision,,,233,,M:tA,360 degree vision,Wits + Composure + Space,Covert
+Spatial Awareness,,,233,,M:tA,Mage Sight,Intelligence or Wits + Occult + Space,Covert
+Spatial Map,,,233,,M:tA,sense locations of nearby objects,Intelligence + Occult + Space,Covert
+"Space 2, Apprentice",,,,,,,,
+Apportation,,,234,(x),M:tA,teleport small objects,Dexterity + Investigation or Occult + Space vs. Composure,Covert
+Astral Beacon,,Mind 2,71,,TotM,create signpost in Astral Realms,Intelligence + Occult + Mind,Covert
+Bestow Spatial Awareness,,,234,,M:tA,grant Mage Sight,Manipulation + Investigation + Space,Covert
+Conceal Sympathy,,,234,,M:tA,prevent others sensing your sympathetic connection,Composure + Subterfuge + Space,Covert
+Follow Through,,,234,(x),M:tA,activate latent Portal,Wits or Dexterity + Investigation + Space,Vulgar
+Intrusion Warning,,,198,?,GotV,determine entries or exits from area,Composure + Investigation + Space,Covert
+Locate Source,,Matter or Prime or Death or Life 1; opt Time 1,204,,Myst,determine locations of significant events in history of target,Wits + Occult + Space,Covert
+Moving Target,,Time 2; opt Prime 2,198,,GotV,track past movements of target,Perception + Investigation + Time vs Composure + Gnosis,Covert
+Scrying,,,235,,M:tA,remotely view location,Intelligence + Investigation + Space,Covert
+Sympathetic Tap,,,195,,SotT,determine when a Sympathetic connection is active,Wits + Investigation + Space,Covert
+Track Projectile,,opt Time 2,185,,AA,determine origin and path of a projectile,Wits + Investigation + Space,Covert
+Untouchable,,,235,,M:tA,Shielding,Wits + Occult + Space,Covert
+Ward,,,236,,M:tA,prevent Space magic from intruding,Resolve + Occult + Space,Covert
+"Space 3, Disciple",,,,,,,,
+Avoidance Tactics,,,236,,M:tA,grant Shielding,Wits + Occult + Space,Covert
+Ban,,Any 1-5,237,,M:tA,prevent associate Arcana from intruding,Resolve + Occult + Space,Covert
+Destroy the Threads,,,237,,M:tA,destroy sympathetic links,Strength or Resolve + Investigation + Space,Covert
+Double Shape,,,143,,TotM,"item crafting, allow two objects to alternate in a spatial pocket",Intelligence + Crafts + Space,Covert
+Duplicate Sympathy,,,194,,SotT,"assume Sympathy of another, or grant others your Sympathy",Manipulation + Occult + Space vs Composure + Gnosis,Covert
+Expanded Volume,,,199,(x)?,GotV,make the inside of a container larger,Dexterity + Subterfuge + Space,Vulgar
+Eyes of the Building,,,61,?,L:tA,be aware of everything inside a structure,Wits + Crafts + Space,Covert
+Hostile Space,,Mind 2,211,,Summ,"create ""static"" for denizens of a given non-Fallen realm, impeding their actions",Wits + Occult + Space,Covert
+Instill Elusiveness,,,140,? -?????(5),TotM,"item crafting, defense",Intelligence + Crafts + Space,Covert
+Instill Homing Instinct,,,144,?????(5),TotM,"item crafting, defense",Intelligence + Crafts + Space,Covert
+Interpose,,,186,(x),AA,receive an attack meant for another,Dexterity + Athletics + Space,Vulgar
+Maintained Sympathy,,,28,,AR,designate items to carry into Astral Space,Wits + Survival + Space,Covert
+Multispatial Perception,,,237,,M:tA,perceive multiple locations simultaneously,Intelligence + Investigation + Space,Covert
+New Threads,,,237,,M:tA,strengthen sympathetic links,Manipulation or Composure + Occult + Space - Composure,Covert
+Portal,,,238,(x)?,M:tA,open a Portal between two locations,Manipulation or Presence + Investigation + Space,Vulgar
+Ranged Blow,,,238,(x),M:tA,transfer a strike's effect to a distance,Strength or Dexterity + Investigation + Space,Vulgar
+Repel,,Any 1-5,186,(x),AA,create a mobile Ban by Combining with other Arcana,Resolve + Occult + Space,Covert
+Walls in the Labyrinth,,"Fate 2, Time 2, Prime 1-5",12,,LoP,add a Wall with active hostile effects to a Ward,,Unlisted
+"Space 4, Adept",,,,,,,,
+Arcade,,,22,(x)?,RotE,open multiple Portals simultaneously,Intelligence + Academics + Space,Vulgar
+Astral Reaches,,,28,?,AR,allow Space magic to be used between layers of Astral/Fallen,Intelligence + Occult + Space,Covert
+Co-Location,,,239,(x)?,M:tA,exist in multiple locations simultaneously,Intelligence + Investigation + Space,Vulgar
+Ephemeral Co-Location,,Spirit 3 and/or Death 3/5; opt Mind 3,211,,Summ,Co-Locate on opposite side of Gauntlet,Wits + Investigation + Space,Vulgar
+Look Within the Gauntlet,,Spirit 3,62,,Summ,look inside the barrier between worlds,Intelligence + Occult or Science + Space,Vulgar
+Pocket Realm,,,239,(x)?,M:tA,create an area that exists outside space,Dexterity or Composure + Investigation+ Space,Vulgar
+Portal Key,,,240,,M:tA,restrict access to a Portal,Resolve + Occult + Space,Covert
+Safe Keeping,,,240,(x),M:tA,move item to a pocket in space,Dexterity + Investigation + Space,Vulgar
+Shatter Space,,Fate 2,72,(x)?,TotM,divide area into fractured spatial cells,Intelligence + Subterfuge + Space,Vulgar
+Suspension,,,240,(x)?,M:tA,bind a target into their current location,Wits + Investigation + Space,Vulgar
+Teleportation,,,241,(x)?,M:tA,teleport to a location,Intelligence or Presence + Occult + Space,Vulgar
+"Space 5, Master",,,,,,,,
+Dimensional Axis,,,241,(x),M:tA,stack multiple locations,Intelligence + Investigation + Space,Vulgar
+Hide Space,,,242,,M:tA,distort space around an area,Intelligence + Investigation + Space,Covert
+Labyrinth,,,242,(x),M:tA,mutate space freely in area,Intelligence + Occult + Space,Vulgar
+Manifold Presence,,Life 4/5; opt Matter 5 and/or Mind 1/3,242,(x),M:tA,co-locate with free acting,Intelligence + Occult + Space,Vulgar
+Oubliette,,"Forces 3, Mind 4, Time 4",243,(x)?,M:tA,force target into subspace torture cell,Intelligence or Wits + Occult + Space,Vulgar
+Phased Strike,,Matter 3/4/5,187,(x),AA,pass weapon through mundane armor,Strength + Weaponry + Space,Vulgar
+Shrink/Expand,,Life 2/3/4 or Matter 2,243,(x)?,M:tA,"alter size, but not mass",Intelligence + Crafts + Space (objects) or,Vulgar
+Worlds Collide,,,244,(x)?,M:tA,overlay two locations violently,Resolve + Investigation + Space vs. Stamina + Gnosis,Vulgar
+"Space 7, Archmastery",,,,,,,,
+True Name,,,38,,IM,prevent sympathetic links,N/A,Unlisted
+"Space 9, Archmastery",,,,,,,,
+"Spirit 1, Initiate",,,,,,,,
+Coaxing the Spirits,,,245,,M:tA,gain bonus from spirit of item,Manipulation or Presence + Socialize + Spirit,Covert
+Exorcist's Eye,,,245,,M:tA,determine if target is possessed,Wits + Occult + Spirit,Covert
+Gremlins,,,72,,TotM,hinder usage of touched object,Presence + Intimidation + Spirit,Covert
+Otherworldly Instrument,,Death 1,18,,TotM,create ephemeral tool for Spirits and Ghosts to use,Dexterity + Crafts + Spirit,Covert
+Second Sight,,,246,,M:tA,Mage Sight,Intelligence or Wits + Occult + Spirit,Covert
+Spirit Tongue,,,246,,M:tA,see and speak with Spirits in Twilight,Presence + Socialize + Spirit,Covert
+"Spirit 2, Apprentice",,,,,,,,
+Analyze Spirit,,opt Death 1 and/or Mind 1,204,,Myst,determine general powers of a Spirit/Ghost/psychic construct,Intelligence + Occult + Spirit,Covert
+Communion with the Messenger,,Prime 2,89,,MT,summon Shadow denizen for information,Presence + Persuasion + Spirit vs Resistance,Covert
+Cowing the Spirit,,,187,,AA,reduce Equipment bonus of item by -1/suxx,Presence + Intimidation + Spirit,Covert
+Ephemeral Shield,,,246,,M:tA,Shielding,Stamina or Resolve + Occult + Spirit,Vulgar
+Gossamer Touch,,,247,(x),M:tA,touch entities in Twilight,Dexterity + Athletics + Spirit,Covert
+Grant the Second Sight,,,247,,M:tA,grant Mage sight,Manipulation or Intelligence + Persuasion + Spirit,Covert
+Invitation to the Orishas,,,76,,MT,permit possession by powerful Spirits,Presence + Athletics + Spirit,Covert
+Lesser Spirit Summons,,,247,,M:tA,summon Spirit by name or issue general call in Twilight,Presence or Intelligence + Persuasion + Spirit vs. Resistance trait,Covert
+Peer Across the Gauntlet,,,247,,M:tA,see into Shadow,Wits + Occult + Spirit,Covert
+Place of Power,,,247,(x),M:tA,raise or lower Gauntlet in Hallow,Resolve + Survival + Spirit,Vulgar
+Read Spirit,,,188,,AA,determine a Spirit's Ban,Intelligence + Occult + Spirit,Covert
+Spirit Pact,,,129,?,TotM,"item crafting, alternate relinquishment cost - fulfill quest for spirit",Presence + Occult + Spirit,Covert
+Spiritual Bulwark,,,23,,TotM,protect against non-attack Numina,Composure or Resolve + Occult + Spirit,Covert
+"Spirit 3, Disciple",,,,,,,,
+Alien Highway,,,68,(x)?,Ban,"as Spirit Road, but random chance to open to Shadow, Earth, outer space or the Abyss",Resolve + Survival + Spirit,Vulgar
+Control Spirit,,,248,,M:tA,force Spirit to obey commands,Presence + Intimidation + Spirit vs. Resistance,Covert
+Create Fetish Tattoo,,Life 2/3,73,(x)?,TotM,make a tattoo suitable to house a spirit for Create Fetish,Stamina + Crafts + Spirit,Vulgar
+Ephemeral Wall,,,248,,M:tA,grant Mage Armor,Stamina + Occult + Spirit,Covert
+Exorcism,,,248,,M:tA,expel a Spirit that is possessing a target,Presence + Intimidation + Spirit vs. Power + Resistance,Covert
+Familiar Pact,,,249,?,M:tA,bind a willing Spirit to yourself as a Familiar,Manipulation + Socialize + Spirit,Covert
+Greater Spirit Summons,,,249,(x),M:tA,summon Spirit by name in Twilight or Shadow,Presence or Dexterity or Manipulation + Persuasion or Athletics or Expression + Spirit vs. Resistance,Vulgar
+Harm Spirit,,,249,(x),M:tA,inflict lethal damage on Spirits,Strength + Athletics + Spirit - Resistance,Vulgar
+Hone the Pack Spirit,,Life 2,57,?,GoG,give sophisticated instructions to a group of animals,Wits + Survival + Spirit,Covert
+Nullify Shadow Resonance,,Prime 3,195,,SotT,negate the influence of the Shadow on Resonance of an area,Presence + Persuasion + Spirit,Covert
+Numinous Shield,,,249,,M:tA,protect against Spirit Numina,Stamina or Composure + Occult + Spirit,Covert
+Otherworldly Armory,,Matter 3; opt Space 3,201,,SL,pull spirit across Gauntlet and transform it into appropriate item,Presence + Crafts + Spirit,Vulgar
+Reaching,,,250,(x),M:tA,touch across Gauntlet,Dexterity or Wits + Athletics + Spirit,Vulgar
+Restore Lost Soul,,,250,,M:tA,bind a freed Soul to a Soulless target,Presence + Empathy + Spirit,Covert
+Rouse Spirit,,,250,(x),M:tA,waken latent Spirit inside an object to assist you,Manipulation or Presence + Persuasion + Spirit,Vulgar
+Spirit Road,,,251,(x)?,M:tA,create Portal across Gauntlet,Resolve + Survival + Spirit,Vulgar
+Spirit Steed,,opt Space 2 and/or Fate 2,188,?,AA,bind a Spirit to use as transport in a pinch,Manipulation + Socialize + Spirit,Covert
+Summon Cryptid,,"Life 3, Space 2",29,,Summ,call a cryptid out of a Verge or other hiding place,Resolve + Occult + Spirit,Vulgar
+The Divining Spirit,,Time 3,138,,MT,converse with a Spirit from another time,Manipulation + Persuasion + Spirit vs. Resistance,Vulgar
+"Spirit 4, Adept",,,,,,,,
+Activate Spirit,,Prime 4,109,(x)?,GoG,exchange Mana for forced use of a Spirit's Numina or Influence,Presence + Expression + Spirit,Vulgar
+Bind Spirit,,,251,(x),M:tA,restrict Spirit to a location,Presence + Intimidation + Spirit vs. Resistance,Vulgar
+Create Fetish,,,252,(x)?,M:tA,bind Spirit to object as Fetish,Resolve or Presence + Persuasion + Spirit vs. Resistance,Vulgar
+Essence Gift,,Prime 4,252,,M:tA,convert Mana to Essence,Presence + Socialize + Spirit,Covert
+Goetic Evocation,,Mind 4,324,(x)?,M:tA,bring forth inner demon as Spirit entity,Resolve + Occult + Spirit,Vulgar
+Grant Familiar,,,253,?,M:tA,grant target a bond with a willing Spirit as a Familiar,Presence or Intelligence + Persuasion + Spirit,Covert
+Living Land,,Fate 2,69,,GoG,coax Spirit of an area to penalize foes and benefit allies,Intelligence + Intimidation + Spirit,Covert
+Medicine Bag,,,253,?,M:tA,create repository for Essence,Intelligence + Crafts + Spirit,Covert
+Outer Channel,,Space 4,144,,Summ,call a quincunx entity (or other mad being),"Presence + Persuasion + Spirit vs. Resistance (spirit) or Resolve + Composure (""other"")",Vulgar
+Road Master,,,254,?,M:tA,transition to Shadow without Portal; control access to Portal across Gauntlet,Wits + Occult + Spirit,Covert
+Sacramental Chain,,,253,,M:tA,grant Essence to Spirit,Manipulation + Occult + Spirit - Resistance,Covert
+Spirit Guardian,,,253,(x),M:tA,bind Spirit to a target as a guardian,Presence + Persuasion + Spirit vs. Resistance,Vulgar
+Spirit Possession,,,253,(x),M:tA,grant Spirit the Possession Numen,Presence or Manipulation or Intelligence + Persuasion + Spirit vs. Resistance,Vulgar
+Spiritual Ascension,,Life 4,86,,GoG,transform user's body into Spirit ephemera,,Vulgar
+"Spirit 5, Master",,,,,,,,
+Control Gauntlet,,,254,(x),M:tA,alter Gauntlet in any location,Resolve + Survival + Spirit,Vulgar
+Dragon's Call,,Prime 5,149,(x)s,KST,call a Dragon from the Supernal inside a Hallow,Composure + Occult + Spirit,Vulgar
+Invoke Twilight,,,29,(x)?,AR,create a state of Twilight in an Astral Realm,Presence + Science + Spirit,Vulgar
+Materialize Spirit,,,254,(x)?,M:tA,force Spirit to materialize,Presence + Intimidation + Spirit,Vulgar
+Shadow Slave,,Death 3,255,(x)?,M:tA,create animate shadow spirits,Presence or Intelligence + Intimidation + Spirit,Vulgar
+Shape Spirit,,,255,(x),M:tA,create or alter Spirit natures,Intelligence + Occult + Spirit vs. Resistance,Vulgar
+Spirit Court,,,255,,M:tA,establish yourself in Spirit hierarchy,Intelligence + Occult + Spirit,Covert
+Spirit Manse,,,256,,M:tA,create bulwarks in Shadow,Composure + Occult + Spirit,Covert
+Summon Royal Avatar,,,27,,Summ,call to an avatar of a royal spirit (Rank 6+),Presence + Expression + Spirit,Vulgar
+"Spirit 7, Archmastery",,,,,,,,
+"Spirit 9, Archmastery",,,,,,,,
+"Time 1, Initiate",,,,,,,,
+Momentary Flux,,,257,,M:tA,determine if event was beneficial,Wits + Investigation + Time,Covert
+Perfect Timing,,,258,?,M:tA,add dice to next roll in turn,Intelligence + Composure + Time,Covert
+Precise Dating,,Life or Matter or Forces 1,204,,Myst,determine when target reached it's current form,Wits + Science + Time,Covert
+Temporal Eddies,,,258,,M:tA,Mage Sight,Wits + Investigation + Time,Covert
+Temporal Wrinkles,,,258,,M:tA,detect presence of temporal disturbances,Wits + Occult + Time,Covert
+Tempus Fugit,,,199,,GotV,alter target's sense of time,Wits + Academics + Time,Covert
+Time Limit,,,132,?,TotM,"item crafting, alternate relinquishment cost - each owner only gets a limited time of usability",Intelligence + Crafts + Time,Covert
+Time's Mark,,Matter 1 or Life 1 or Time 2,73,,TotM,reliably determine object/person's creation/birth date,Intelligence + Investigation + Time,Covert
+"Time 2, Apprentice",,,,,,,,
+Augury,,,258,,M:tA,see the general nature of the future,Intelligence or Wits + Occult + Time,Covert
+Flip of the Coin,,,259,?,M:tA,determine outcome of simple act,Wits + Investigation + Time,Covert
+Glimpsing the Future,,,259,?,M:tA,"roll twice for action, taking the better roll",Wits + Resolve + Investigation + Time,Covert
+Library of Time,,,199,,GotV,half Research roll time,Wits + Academics + Time,Covert
+Postcognition,,,260,,M:tA,view past events,Intelligence or Wits + Investigation or Academics + Time,Covert
+Shield of Chronos,,,261,,M:tA,prevent others from viewing through Time,Composure or Presence + Stealth + Time,Covert
+Temporal Dodge,,,261,,M:tA,Shielding,Dexterity + Athletics + Time,Covert
+Temporal Flow,,,262,,M:tA,grant Mage Sight,Presence + Persuasion + Time,Covert
+Worst Moment,,opt Space 2,68,,Ban,"predict the best time to attack target, inflict environmental penalties",Wits + Investigation + Time,Covert
+"Time 3, Disciple",,,,,,,,
+Acceleration,,,262,(x),M:tA,"1 mana/turn to increase speed, defense by time dots against",Stamina + Athletics + Time,Vulgar
+Borrow From the Future,,,144,?,TotM,"item crafting, trade future penalties for successes",Wits + Occult + Time,Covert
+Divination,,,263,?,M:tA,gain information about possible,Intelligence + Investigation + Time,Covert
+Falsify Temporal Presence,,,195,,SotT,"for Duration of spell, caster's history and future are shown as defined",Wits + Investigation + Time,Covert
+Prophetic Dream,,Mind 3,28,,TotM,"grant another a prophetic dream, typically centered around the target",Presence + Empathy + Time vs Resolve + Gnosis,Covert
+Rapid Fire,,"Forces 2, Life 2, Matter 2",189,(x),AA,use Autofire with any ranged weapon,Dexterity + Athletics + Time,Vulgar
+Review History,,"Mind 2, Death 1 or Matter 1",205,,Myst,view entirety of dead/broken pieces lifetime,Intelligence + Investigation + Time,Covert
+Shifting Sands,,,263,(x)?,M:tA,rewind events by one turn,Resolve + Occult + Time,Vulgar
+Strike in the Perfect Moment,,,72,,GoG,able to spend 1 mana per strike that reduces opponent's Defense by Time dots,Composure + Weaponry + Time,Covert
+Temporal Shift,,,263,,M:tA,grant Shielding,Manipulation + Investigation + Time,Covert
+Time Out of Mind,,Mind 2,113,,FC,accelerate mental state,Intelligence + Science + Time,Covert
+"Time 4, Adept",,,,,,,,
+Chronos' Curse,,,264,(x)?,M:tA,slow target and reduce Defense,Manipulation or Wits + Occult + Time - Composure,Vulgar
+Create Potentiality,,,212,(x)?,Summ,retroactively add successes on casting to failed non-magical roll,Intelligence + Science + Time,Vulgar
+Erase History,,,133,,L:tS,remove a piece of time to prevent scrying,Intelligence + Subterfuge + Time,Covert
+Eternal Object,,Matter 1,133,,GoG,prevent object from being altered in any way,Resolve + Occult + Time,Covert
+Precognitive Ordeal,,,47,?,GoG,gain Willpower by suffering foreseen attacks,Wits + Occult + Time,Covert
+Present as Past,,,264,(x)?,M:tA,predict actions of others perfectly,Intelligence or Presence + Occult + Time vs Composure + Gnosis,Vulgar
+Prophecy,,,264,,M:tA,gain information about possible,Intelligence + Occult + Time,Covert
+Temporal Pocket,,,265,(x),M:tA,step into altered time flow,Wits + Occult + Time,Vulgar
+Temporal Stutter,,,265,(x)?,M:tA,push self or target forward in time,Wits + Occult + Time,Vulgar
+"Time 5, Master",,,,,,,,
+Duplicate,,,189,??,AA,loop time so that one action happens twice,Resolve + Occult + Time,Covert
+Faerie Glade,,,265,(x)?,M:tA,alter speed of time flow in area,Wits or Composure + Occult + Time,Vulgar
+Future Legacy,,opt Space 2,267,(x),M:tA,shunt object to future time,Presence + Investigation + Time,Vulgar
+Legacy of Power,,"Fate 2, Prime 2",202,(x),SL,store Mana in timestream for future use,Manipulation + Subterfuge + Time,Vulgar
+Rewrite History,,,267,(x)?,M:tA,alter your Skills and Attributes,Manipulation + Investigation + Time,Vulgar
+Stop Time,,,267,(x)?,M:tA,freeze time around a target,Intelligence + Occult + Time vs Composure + Gnosis,Vulgar
+Temporal Lifeline,,,113,(x)?,FC,mark a point in time to return to up to 24 hours later,Wits + Science + Time,Vulgar
+"Time 7, Archmastery",,,,,,,,
+"Time 9, Archmastery",,,,,,,,
+Abyssal Perception,,Prime,1,"Death 1, Spirit 1, Space 1",77,,GoG,perceive presence of Abyssal phenomena
+Call Shadow,,Death,3,"Mind 3, Spirit 3",78,(x),GoG,summon a nasty spirit creature
+Person,,,,,,,,
+Ring Sight,,Any,1,,24,?,RotE,reveal Exarch influence
+? = Willpower Cost,,,,,,,,
+? = Mana Cost,,,,,,,,
+s = special Mana or Willpower Cost,,,,,,,,
+1. = amount of Mana used,,,,,,,,
+v = Aspect varies,,,,,,,,
+(x) = Vulgar,,,,,,,,
+Javascript Required,,,,,,,,
+You need to enable Javascript in your browser to edit pages.,,,,,,,,
+help on how to format text,,,,,,,,
+Help ú About ú Blog ú Pricing ú Privacy ú Terms ú Support ú Upgrade,,,,,,,,
+Contributions to http://wodindex.wikispaces.com/ are licensed under a Creative Commons Attribution Share-Alike Non-Commercial 3.0 License. Creative Commons Attribution Share-Alike Non-Commercial 3.0 License,,,,,,,,
+Portions not contributed by visitors are Copyright 2015 Tangient LLC,,,,,,,,
+"Turn off ""Getting Started""",,,,,,,,
+1. Home,,,,,,,,
+2. ...,,,,,,,,
+Loading...,,,,,,,,
