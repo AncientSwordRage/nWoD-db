@@ -3,5 +3,7 @@ Web app for creating new world of darkness characters and browsing character dat
 
 
 ## To do
- 1. Implement Generic Foreign Keys
- 2. Implement bulk upload of spell data
+ 1. Model References to 'character' should be changed to use Generic Foreign Keys
+ 2. Change nWoDCharacter to Characteristics, and use GFKs.
+ 3. Limit GFKs to playable templates
+ 3. Implement bulk upload of spell data
