@@ -1,22 +1,40 @@
 from django.contrib import admin
-from django import forms
-from .models import Mage, Spell, Skill, Attribute, Arcana
+from django.contrib.contenttypes import admin as genericAdmin
+from .models import Skill, Attribute, CharacterAttributeLink, CharacterSkillLink, BookReference
+from .mage.models import Mage, Spell, Arcana, CharacterArcanumLink, SpellArcanumLink, SpellAttributeLink, SpellSkillLink
 
-
-class AttributeInline(admin.TabularInline):
-    model = Attribute
+class AttributeInline(genericAdmin.GenericTabularInline):
+    model = CharacterAttributeLink
     extra = 9
     max_num = 9
     can_delete = False
 
-class SkillInline(admin.TabularInline):
-    model = Skill
+class SkillInline(genericAdmin.GenericTabularInline):
+    model = CharacterSkillLink
     extra = 24
     max_num = 24
     can_delete = False
 
+class ExtraAttributeInline(admin.StackedInline):
+    model = SpellAttributeLink
+    extra = 1
+    can_delete = False
+
+class ExtraSkillInline(admin.StackedInline):
+    model = SpellSkillLink
+    extra = 1
+    can_delete = False
+
 class ArcanaInline(admin.TabularInline):
-    model = Arcana
+    model = CharacterArcanumLink
+
+class ExtraSpellArcanaInline(admin.TabularInline):
+    model = SpellArcanumLink
+    extra = 1
+
+class BookReferenceInline(genericAdmin.GenericStackedInline):
+    model = BookReference
+    max_num = 1
 
 class SpellInline(admin.TabularInline):
     model = Spell.mage.through  
@@ -25,13 +43,7 @@ class MageAdmin(admin.ModelAdmin):
     inlines = [AttributeInline, SkillInline, ArcanaInline, SpellInline]
 
 class SpellAdmin(admin.ModelAdmin):
-    secondary_arcana = forms.ModelMultipleChoiceField(queryset=Arcana.objects.all(), required=False)
-    optional_arcana = forms.ModelMultipleChoiceField(queryset=Arcana.objects.all(), required=False)
-    class Meta:
-        model = Spell
-        fields = ('name', 'vulgar', 'primary_arcana', 'secondary_arcana', 'optional_arcana', 'rote_skill',
-            'rote_attribute', 'mage', 'contested', 'contested_attribute', 'contested_skill', 'resisted',
-            'resisted_by_attribute')
+    inlines = [ExtraAttributeInline, ExtraSkillInline, ExtraSpellArcanaInline, BookReferenceInline]
 
 # Register your models here.
 admin.site.register(Mage, MageAdmin)
