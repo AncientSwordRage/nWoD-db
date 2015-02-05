@@ -94,7 +94,7 @@ class CharacterSkillLink(SkillLink, Trait, CrossCharacterMixin):
         (1, 'Primary'), (2, 'Secondary'), (3, 'Tertiary')
         )
     priority = models.PositiveSmallIntegerField(choices=PRIORITY_CHOICES, default=None)
-    speciality = models.CharField(max_length=200)
+    speciality = models.CharField(max_length=200, null=True, blank=True)
 
 class CharacterAttributeLink(AttributeLink, Trait, CrossCharacterMixin):
     MIN = 1
