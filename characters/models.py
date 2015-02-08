@@ -3,7 +3,7 @@ from nwod_characters.util import IntegerRangeField
 from .choices import ATTRIBUTE_CHOICES, SKILL_CHOICES
 from django.contrib.contenttypes.fields import GenericForeignKey
 from django.contrib.contenttypes.models import ContentType
-
+from .enums import Skills, Attributes
 # import csv
 
 # Create your models here.
@@ -59,17 +59,6 @@ class BookReference(models.Model):
     book_name = models.CharField(max_length=50)
     book_page = models.PositiveSmallIntegerField(default=0)
 
-
-class Merit(Trait, models.Model):
-    name = models.CharField(max_length=50)
-    book_ref = models.ForeignKey('BookReference')
-
-class Skill(models.Model):
-    name = models.CharField(max_length=50, choices=SKILL_CHOICES)
-
-class Attribute(models.Model):
-    name = models.CharField(max_length=50, choices=ATTRIBUTE_CHOICES)
-
 class CrossCharacterMixin(models.Model):
     cross_character_types = models.Q(app_label='mage', model='mage')
     content_type = models.ForeignKey(ContentType, limit_choices_to=cross_character_types,
@@ -77,22 +66,13 @@ class CrossCharacterMixin(models.Model):
     object_id = models.PositiveIntegerField(null=True)
     content_object = GenericForeignKey('content_type', 'object_id')
     class Meta:
-        abstract = True
-
-class SkillLink(models.Model):
-    skill = models.ForeignKey('Skill', choices=SKILL_CHOICES)
-    class Meta:
-        abstract = True
-
-class AttributeLink(models.Model):
-    attribute = models.ForeignKey('Attribute', choices=ATTRIBUTE_CHOICES)
-    class Meta:
-        abstract = True  
+        abstract = True 
      
-class CharacterSkillLink(SkillLink, Trait, CrossCharacterMixin):
+class CharacterSkillLink(Trait, CrossCharacterMixin):
     PRIORITY_CHOICES = (
         (1, 'Primary'), (2, 'Secondary'), (3, 'Tertiary')
         )
+    skill = EnumField()
     priority = models.PositiveSmallIntegerField(choices=PRIORITY_CHOICES, default=None)
     speciality = models.CharField(max_length=200, null=True, blank=True)
 
