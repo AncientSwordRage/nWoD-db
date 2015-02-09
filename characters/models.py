@@ -2,7 +2,7 @@ from django.db import models
 from nwod_characters.util import IntegerRangeField
 from django.contrib.contenttypes.fields import GenericForeignKey
 from django.contrib.contenttypes.models import ContentType
-from characters.enums import SkillAbility, AttributeAbility
+from characters.enums import SkillAbility, AttributeAbility # NOQA
 # import csv
 
 # Create your models here.
@@ -47,8 +47,8 @@ class Characteristics(models.Model):
 class Trait(models.Model):
     MIN = 0
     MAX = 5
-    current_value = IntegerRangeField(min_value=MIN, max_value=MAX)
-    maximum_value = IntegerRangeField(min_value=MIN, max_value=MAX)
+    current_value = IntegerRangeField(min_value=MIN, max_value=MAX, default=MIN)
+    maximum_value = IntegerRangeField(min_value=MIN, max_value=MAX, default=MIN)
 
     class Meta:
         abstract = True

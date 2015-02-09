@@ -46,7 +46,7 @@ class Spell(models.Model):
     # Each spell's arcanum have different rating. E.g. Fate 1, Prime 1
     # non-optional arcana in addition to the main arcana
     # arcana that are not needed to cast the spell
-    arcana = models.ManyToManyField('Arcana', choices=ARCANUM_CHOICES, through='SpellArcanumLink',
+    arcana = models.ManyToManyField('Arcana', through='SpellArcanumLink',
                                     related_name='spell_by_arcanum')
 
     @property
@@ -98,9 +98,12 @@ class Spell(models.Model):
     # Spells come from books
     book_ref = GenericRelation('BookReference', null=True, blank=True)
 
+    def __str__(self):
+        return self.name
+
 
 class ArcanaLink(models.Model):
-    arcana = models.ForeignKey('Arcana', choices=ARCANUM_CHOICES)
+    arcana = models.ForeignKey('Arcana')
 
     class Meta:
         abstract = True
@@ -108,6 +111,9 @@ class ArcanaLink(models.Model):
 
 class Arcana(models.Model):
     name = models.CharField(max_length=50, choices=ARCANUM_CHOICES)
+
+    def __str__(self):
+        return self.name
 
 
 class CharacterArcanumLink(ArcanaLink, Trait):
