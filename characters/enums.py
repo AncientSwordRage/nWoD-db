@@ -1,49 +1,64 @@
+from enumfields import Enum, EnumField
 from django.db import models
-from Enumfields import EnumField, Enum
 
-class Skills(models.Model):
-    class Mental(Enum)
-Academics='Academics'
-            Computer='Computer'
-            Crafts='Crafts'
-            Investigation='Investigation'
-            Medicine='Medicine'
-            Occult='Occult'
-            Politics='Politics'
-            Science='Science'
 
-    class Physical(Enum):
-            Athletics='Athletics'
-            Brawl='Brawl'
-            Drive='Drive'
-            Firearms='Firearms'
-            Larceny='Larceny'
-            Stealth='Stealth'
-            Survival='Survival'
-            Weaponry='Weaponry'
+class SkillAbility(models.Model):
 
-    class Social(Enum):
-            Animal='Animal' Ken
-            Empathy='Empathy'
-            Expression='Expression'
-            Intimidation='Intimidation'
-            Persuasion='Persuasion'
-            Socialize='Socialize'
-            Streetwise='Streetwise'
-            Subterfuge='Subterfuge'
-        
+    class Skills(Enum):
+        ACADEMICS = ('Academics', 'Mental')
+        COMPUTER = ('Computer', 'Mental')
+        CRAFTS = ('Crafts', 'Mental')
+        INVESTIGATION = ('Investigation', 'Mental')
+        MEDICINE = ('Medicine', 'Mental')
+        OCCULT = ('Occult', 'Mental')
+        POLITICS = ('Politics', 'Mental')
+        SCIENCE = ('Science', 'Mental')
+        ATHLETICS = ('Athletics', 'Physical')
+        BRAWL = ('Brawl', 'Physical')
+        DRIVE = ('Drive', 'Physical')
+        FIREARMS = ('Firearms', 'Physical')
+        LARCENY = ('Larceny', 'Physical')
+        STEALTH = ('Stealth', 'Physical')
+        SURVIVAL = ('Survival', 'Physical')
+        WEAPONRY = ('Weaponry', 'Physical')
+        ANIMAL = ('Animal', 'Social')
+        EMPATHY = ('Empathy', 'Social')
+        EXPRESSION = ('Expression', 'Social')
+        INTIMIDATION = ('Intimidation', 'Social')
+        PERSUASION = ('Persuasion', 'Social')
+        SOCIALIZE = ('Socialize', 'Social')
+        STREETWISE = ('Streetwise', 'Social')
+        SUBTERFUGE = ('Subterfuge', 'Social')
 
-class Attributes(models.Model)
-    class Mental(Enum):
-            Intelligence='Intelligence'
-            Wits='Wits'
-            Resolve='Resolve'
-    class Physical(Enum):
-            Strength='Strength'
-            Dexterity='Dexterity'
-            Stamina='Stamina'
-    class Social(Enum):
-            Presence='Presence'
-            Manipulation='Manipulation'
-            Composure='Composure'
-            
+        def __init__(self, label, skill_type):
+            self.label = label
+            self.skill_type = skill_type
+
+        @property
+        def type(self):
+            return self.skill_type
+    skill = EnumField(Skills)
+
+
+class AttributeAbility(models.Model):
+
+    class Attributes(Enum):
+        INTELLIGENCE = ('Intelligence', 'Mental', 'Power')
+        WITS = ('Wits', 'Mental', 'Finesse')
+        RESOLVE = ('Resolve', 'Mental', 'Resistance')
+        STRENGTH = ('Strength', 'Physical', 'Power')
+        DEXTERITY = ('Dexterity', 'Physical', 'Finesse')
+        STAMINA = ('Stamina', 'Physical', 'Resistance')
+        PRESENCE = ('Presence', 'Social', 'Power')
+        MANIPULATION = ('Manipulation', 'Social', 'Finesse')
+        COMPOSURE = ('Composure', 'Social', 'Resistance')
+
+        def __init__(self, label, attr_type, category):
+            self.label = label
+            self.attr_type = attr_type
+            self.category = category
+
+        @property
+        def type(self):
+            return self.attr_type
+    attribute = EnumField(Attributes)

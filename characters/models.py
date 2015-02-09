@@ -1,13 +1,15 @@
 from django.db import models
 from nwod_characters.util import IntegerRangeField
-from .choices import ATTRIBUTE_CHOICES, SKILL_CHOICES
 from django.contrib.contenttypes.fields import GenericForeignKey
 from django.contrib.contenttypes.models import ContentType
-from .enums import Skills, Attributes
+from characters.enums import SkillAbility, AttributeAbility
 # import csv
 
 # Create your models here.
+
+
 class NWODCharacter(models.Model):
+
     class Meta:
         abstract = True
     SUB_RACE_CHOICES = ()
@@ -19,16 +21,20 @@ class NWODCharacter(models.Model):
     updated_date = models.DateTimeField(auto_now_add=False, auto_now=True)
     published_date = models.DateTimeField(blank=True, null=True)
     sub_race = models.CharField(choices=SUB_RACE_CHOICES, max_length=50)
-    faction = models.CharField(choices=FACTION_CHOICES, max_length=50, null=True)
-    
+    faction = models.CharField(
+        choices=FACTION_CHOICES, max_length=50, null=True)
+
+
 class Characteristics(models.Model):
+
     class Meta:
         abstract = True
     VIRTUE_CHOICES = (('prudence', 'Prudence'), ('justice', 'Justice'),
-     ('temperance', 'Temperance'), ('fortitude', 'Fortitude'), ('faith', 'Faith'), 
-     ('hope', 'Hope'), ('charity', 'Charity'))
+                      ('temperance', 'Temperance'), ('fortitude',
+                                                     'Fortitude'), ('faith', 'Faith'),
+                      ('hope', 'Hope'), ('charity', 'Charity'))
     VICE_CHOICES = (('lust', 'Lust'), ('gluttony', 'Gluttony'), ('greed', 'Greed'),
-     ('sloth', 'Sloth'), ('wrath', 'Wrath'), ('envy', 'Envy'), ('pride', 'Pride'))
+                    ('sloth', 'Sloth'), ('wrath', 'Wrath'), ('envy', 'Envy'), ('pride', 'Pride'))
 
     power_level = IntegerRangeField(min_value=1, max_value=10)
     energy_trait = IntegerRangeField(min_value=1, max_value=10)
@@ -38,51 +44,56 @@ class Characteristics(models.Model):
     size = IntegerRangeField(min_value=1, max_value=10, default=5)
 
 
-def resistance_attributes():
-    res = [ATTRIBUTE_CHOICES[i][-1][-1] for i in range(len(ATTRIBUTE_CHOICES))]
-    return res
-
 class Trait(models.Model):
     MIN = 0
     MAX = 5
     current_value = IntegerRangeField(min_value=MIN, max_value=MAX)
     maximum_value = IntegerRangeField(min_value=MIN, max_value=MAX)
+
     class Meta:
         abstract = True
 
+
 class BookReference(models.Model):
-    things_in_books = models.Q(app_label='mage', model='spell') | models.Q(app_label='characters', model='merit')
+    things_in_books = models.Q(app_label='mage', model='spell') | models.Q(
+        app_label='characters', model='merit')
     content_type = models.ForeignKey(ContentType, limit_choices_to=things_in_books,
-        null=True, blank=True)
+                                     null=True, blank=True)
     object_id = models.PositiveIntegerField(null=True)
-    content_object = GenericForeignKey('content_type', 'object_id')    
+    content_object = GenericForeignKey('content_type', 'object_id')
     book_name = models.CharField(max_length=50)
     book_page = models.PositiveSmallIntegerField(default=0)
+
 
 class CrossCharacterMixin(models.Model):
     cross_character_types = models.Q(app_label='mage', model='mage')
     content_type = models.ForeignKey(ContentType, limit_choices_to=cross_character_types,
-        null=True, blank=True)
+                                     null=True, blank=True)
     object_id = models.PositiveIntegerField(null=True)
     content_object = GenericForeignKey('content_type', 'object_id')
+
     class Meta:
-        abstract = True 
-     
+        abstract = True
+
+
 class CharacterSkillLink(Trait, CrossCharacterMixin):
     PRIORITY_CHOICES = (
         (1, 'Primary'), (2, 'Secondary'), (3, 'Tertiary')
-        )
-    skill = EnumField()
-    priority = models.PositiveSmallIntegerField(choices=PRIORITY_CHOICES, default=None)
+    )
+    skill = models.ForeignKey('SkillAbility')
+    priority = models.PositiveSmallIntegerField(
+        choices=PRIORITY_CHOICES, default=None)
     speciality = models.CharField(max_length=200, null=True, blank=True)
 
-class CharacterAttributeLink(AttributeLink, Trait, CrossCharacterMixin):
+
+class CharacterAttributeLink(Trait, CrossCharacterMixin):
     MIN = 1
     PRIORITY_CHOICES = (
         (1, 'Primary'), (2, 'Secondary'), (3, 'Tertiary')
-        )
-    priority = models.PositiveSmallIntegerField(choices=PRIORITY_CHOICES, default=None)
-
+    )
+    attribute = models.ForeignKey('AttributeAbility')
+    priority = models.PositiveSmallIntegerField(
+        choices=PRIORITY_CHOICES, default=None)
 
 
 # def parse_wod_index_spell_row(file):
@@ -90,7 +101,7 @@ class CharacterAttributeLink(AttributeLink, Trait, CrossCharacterMixin):
 #     arcanum_and_level_pattern = re.compile(r'(?P<delim_type>|\s+and/or\s+|\s+opt\s+)(?P<arcana_list>(?:\w+?\s\d)(?:(?:[,+]|\s+or)\s+(?:\w+?\s\d))*)')
 #     with open(file) as f:
 #         reader = csv.reader(f, delimiter=',')
-#         # header = reader.next()
+# header = reader.next()
 #         for row in reader:
 #             name = row[0]
 #             primary_arcana = row[1]

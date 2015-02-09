@@ -1,6 +1,6 @@
 from django.contrib import admin
 from django.contrib.contenttypes import admin as genericAdmin
-from .models import Skill, Attribute, CharacterAttributeLink, CharacterSkillLink, BookReference
+from .models import CharacterAttributeLink, CharacterSkillLink, BookReference
 from .mage.models import Mage, Spell, Arcana, CharacterArcanumLink, SpellArcanumLink, SpellAttributeLink, SpellSkillLink
 
 class AttributeInline(genericAdmin.GenericTabularInline):
@@ -47,7 +47,5 @@ class SpellAdmin(admin.ModelAdmin):
 
 # Register your models here.
 admin.site.register(Mage, MageAdmin)
-admin.site.register(Skill)
-admin.site.register(Attribute)
 admin.site.register(Arcana)
 admin.site.register(Spell, SpellAdmin)
