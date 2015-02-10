@@ -8,8 +8,8 @@ class MageSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Mage
-        fields = ('id', 'player', 'name', 'created_date', 'updated_date', 'published_date',
-                  'sub_race', 'faction', 'power_level', 'energy_trait', 'virtue', 'vice', 'morality', 'size',)
+        fields = ('id', 'player', 'name', 'sub_race', 'faction', 'is_published',
+                  'power_level', 'energy_trait', 'virtue', 'vice', 'morality', 'size',)
 
 
 class UserSerializer(serializers.ModelSerializer):

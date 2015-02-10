@@ -1,12 +1,15 @@
 # Create your views here.
 from django.contrib.auth.models import User
-from rest_framework import generics, permissions
+from rest_framework import permissions, viewsets
 from characters.mage.models import Mage
 from characters.serializers import MageSerializer, UserSerializer
 from characters.permissions import IsOwnerOrReadOnly
+from rest_framework.decorators import api_view
+from rest_framework.response import Response
+from rest_framework.reverse import reverse
 
 
-class MageList(generics.ListCreateAPIView):
+class MageViewSet(viewsets.ModelViewSet):
     queryset = Mage.objects.all()
     serializer_class = MageSerializer
     permission_classes = (permissions.IsAuthenticatedOrReadOnly,
@@ -16,18 +19,17 @@ class MageList(generics.ListCreateAPIView):
         serializer.save(player=self.request.user)
 
 
-class MageDetail(generics.RetrieveUpdateDestroyAPIView):
-    queryset = Mage.objects.all()
-    serializer_class = MageSerializer
-    permission_classes = (permissions.IsAuthenticatedOrReadOnly,
-                          IsOwnerOrReadOnly,)
-
-
-class UserList(generics.ListAPIView):
+class UserViewSet(viewsets.ReadOnlyModelViewSet):
+    """
+    This viewset automatically provides `list` and `detail` actions.
+    """
     queryset = User.objects.all()
     serializer_class = UserSerializer
 
 
-class UserDetail(generics.RetrieveAPIView):
-    queryset = User.objects.all()
-    serializer_class = UserSerializer
+@api_view(('GET',))
+def api_root(request, format=None):
+    return Response({
+        'users': reverse('user-list', request=request, format=format),
+        'mages': reverse('mage-list', request=request, format=format)
+    })

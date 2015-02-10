@@ -2,7 +2,8 @@ from django.db import models
 from nwod_characters.util import IntegerRangeField
 from django.contrib.contenttypes.fields import GenericForeignKey
 from django.contrib.contenttypes.models import ContentType
-from characters.enums import SkillAbility, AttributeAbility # NOQA
+from characters.enums import SkillAbility, AttributeAbility  # NOQA
+from django.utils import timezone
 # import csv
 
 # Create your models here.
@@ -23,6 +24,10 @@ class NWODCharacter(models.Model):
     sub_race = models.CharField(choices=SUB_RACE_CHOICES, max_length=50)
     faction = models.CharField(
         choices=FACTION_CHOICES, max_length=50, null=True)
+
+    @property
+    def is_published(self):
+        return self.published_date is not None and self.published_date >= timezone.now()
 
 
 class Characteristics(models.Model):
@@ -47,8 +52,10 @@ class Characteristics(models.Model):
 class Trait(models.Model):
     MIN = 0
     MAX = 5
-    current_value = IntegerRangeField(min_value=MIN, max_value=MAX, default=MIN)
-    maximum_value = IntegerRangeField(min_value=MIN, max_value=MAX, default=MIN)
+    current_value = IntegerRangeField(
+        min_value=MIN, max_value=MAX, default=MIN)
+    maximum_value = IntegerRangeField(
+        min_value=MIN, max_value=MAX, default=MIN)
 
     class Meta:
         abstract = True
