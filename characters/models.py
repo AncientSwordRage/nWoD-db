@@ -16,7 +16,7 @@ class NWODCharacter(models.Model):
     FACTION_CHOICES = ()
 
     name = models.CharField(max_length=200)
-    player = models.ForeignKey('auth.User')
+    player = models.ForeignKey('auth.User', related_name="%(class)s_by_user")
     created_date = models.DateTimeField(auto_now_add=True, auto_now=False)
     updated_date = models.DateTimeField(auto_now_add=False, auto_now=True)
     published_date = models.DateTimeField(blank=True, null=True)
@@ -36,11 +36,11 @@ class Characteristics(models.Model):
     VICE_CHOICES = (('lust', 'Lust'), ('gluttony', 'Gluttony'), ('greed', 'Greed'),
                     ('sloth', 'Sloth'), ('wrath', 'Wrath'), ('envy', 'Envy'), ('pride', 'Pride'))
 
-    power_level = IntegerRangeField(min_value=1, max_value=10)
-    energy_trait = IntegerRangeField(min_value=1, max_value=10)
+    power_level = IntegerRangeField(min_value=1, max_value=10, default=1)
+    energy_trait = IntegerRangeField(min_value=1, max_value=10, default=7)
     virtue = models.CharField(choices=VIRTUE_CHOICES, max_length=50)
     vice = models.CharField(choices=VICE_CHOICES, max_length=50)
-    morality = IntegerRangeField(min_value=0, max_value=10)
+    morality = IntegerRangeField(min_value=0, max_value=10, default=7)
     size = IntegerRangeField(min_value=1, max_value=10, default=5)
 
 
