@@ -1,6 +1,6 @@
 from django.db import models
 from nwod_characters.util import IntegerRangeField
-from django.contrib.contenttypes.fields import GenericForeignKey
+from django.contrib.contenttypes.fields import GenericForeignKey, GenericRelation
 from django.contrib.contenttypes.models import ContentType
 from characters.enums import SkillAbility, AttributeAbility  # NOQA
 from django.utils import timezone
@@ -23,11 +23,37 @@ class NWODCharacter(models.Model):
     published_date = models.DateTimeField(blank=True, null=True)
     sub_race = models.CharField(choices=SUB_RACE_CHOICES, max_length=50)
     faction = models.CharField(
-        choices=FACTION_CHOICES, max_length=50, null=True)
+        choices=FACTION_CHOICES, max_length=50, null=True, default=None)
+
+    def save(self, *args, **kwargs):
+        initialise_all_links = kwargs.pop('initialise_all_links', not self.pk)
+        super(NWODCharacter, self).save(*args, **kwargs)
+        if initialise_all_links:
+            all_skills = [
+                CharacterSkillLink(
+                    skill=SkillAbility.objects.get_or_create(skill=skill)[0],
+                    content_object=self,
+                    speciality=""
+                )
+                for skill in SkillAbility.Skills
+            ]
+            "\n".join([str(foo) for foo in all_skills])
+            CharacterSkillLink.objects.bulk_create(all_skills)
+            CharacterAttributeLink.objects.bulk_create([
+                CharacterAttributeLink(
+                    attribute=AttributeAbility.objects.get_or_create(
+                        attribute=attribute)[0],
+                    content_object=self,
+                )
+                for attribute in AttributeAbility.Attributes
+            ])
 
     @property
     def is_published(self):
         return self.published_date is not None and self.published_date >= timezone.now()
+
+    attributes = GenericRelation('CharacterAttributeLink')
+    skills = GenericRelation('CharacterSkillLink')
 
 
 class Characteristics(models.Model):
@@ -71,6 +97,9 @@ class BookReference(models.Model):
     book_name = models.CharField(max_length=50)
     book_page = models.PositiveSmallIntegerField(default=0)
 
+    def __str__(self):
+        return self.book_name
+
 
 class CrossCharacterMixin(models.Model):
     cross_character_types = models.Q(app_label='mage', model='mage')
@@ -85,22 +114,31 @@ class CrossCharacterMixin(models.Model):
 
 class CharacterSkillLink(Trait, CrossCharacterMixin):
     PRIORITY_CHOICES = (
-        (1, 'Primary'), (2, 'Secondary'), (3, 'Tertiary')
+        (0, 'Unassigned'), (1, 'Primary'), (2, 'Secondary'), (3, 'Tertiary')
     )
     skill = models.ForeignKey('SkillAbility')
     priority = models.PositiveSmallIntegerField(
-        choices=PRIORITY_CHOICES, default=None)
-    speciality = models.CharField(max_length=200, null=True, blank=True)
+        choices=PRIORITY_CHOICES, default=0)
+    speciality = models.CharField(
+        max_length=200, null=True, blank=True, default="")
+
+    def __str__(self):
+        spec_string = " (" + self.speciality + ")" if self.speciality else ""
+        return self.skill.skill.label + spec_string
 
 
 class CharacterAttributeLink(Trait, CrossCharacterMixin):
     MIN = 1
     PRIORITY_CHOICES = (
-        (1, 'Primary'), (2, 'Secondary'), (3, 'Tertiary')
+        (0, 'Unassigned'), (1, 'Primary'), (2, 'Secondary'), (3, 'Tertiary')
     )
     attribute = models.ForeignKey('AttributeAbility')
     priority = models.PositiveSmallIntegerField(
-        choices=PRIORITY_CHOICES, default=None)
+        choices=PRIORITY_CHOICES, default=0
+    )
+
+    def __str__(self):
+        return self.attribute.attribute.label
 
 
 # def parse_wod_index_spell_row(file):

@@ -5,11 +5,16 @@ from characters.mage.models import Mage
 
 class MageSerializer(serializers.ModelSerializer):
     player = serializers.ReadOnlyField(source='player.username')
+    arcana = serializers.StringRelatedField(many=True)
+    attributes = serializers.StringRelatedField(many=True)
+    skills = serializers.StringRelatedField(many=True)
 
     class Meta:
         model = Mage
         fields = ('id', 'player', 'name', 'sub_race', 'faction', 'is_published',
-                  'power_level', 'energy_trait', 'virtue', 'vice', 'morality', 'size',)
+                  'power_level', 'energy_trait', 'virtue', 'vice', 'morality', 'size',
+                  'arcana', 'attributes', 'skills')
+        depth = 1
 
 
 class UserSerializer(serializers.ModelSerializer):

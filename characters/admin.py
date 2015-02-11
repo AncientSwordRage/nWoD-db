@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.contrib.contenttypes import admin as generic_admin
 from .models import CharacterAttributeLink, CharacterSkillLink, BookReference, SkillAbility, AttributeAbility
-from .mage.models import Mage, Spell, Arcana, CharacterArcanumLink, SpellArcanumLink, SpellAttributeLink, SpellSkillLink
+from .mage.models import Mage, Spell, ArcanumAbility, CharacterArcanumLink, SpellArcanumLink, SpellAttributeLink, SpellSkillLink
 
 
 class AttributeInline(generic_admin.GenericTabularInline):
@@ -32,6 +32,8 @@ class ExtraSkillInline(admin.StackedInline):
 
 class ArcanaInline(admin.TabularInline):
     model = CharacterArcanumLink
+    extra = 10
+    max_num = 10
 
 
 class ExtraSpellArcanaInline(admin.TabularInline):
@@ -49,7 +51,7 @@ class SpellInline(admin.TabularInline):
 
 
 class MageAdmin(admin.ModelAdmin):
-    inlines = [AttributeInline, SkillInline, ArcanaInline, SpellInline]
+    inlines = [ArcanaInline, SkillInline, AttributeInline]
 
 
 class SpellAdmin(admin.ModelAdmin):
@@ -58,7 +60,7 @@ class SpellAdmin(admin.ModelAdmin):
 
 # Register your models here.
 admin.site.register(Mage, MageAdmin)
-admin.site.register(Arcana)
+admin.site.register(ArcanumAbility)
 admin.site.register(Spell, SpellAdmin)
 admin.site.register(SkillAbility)
 admin.site.register(AttributeAbility)

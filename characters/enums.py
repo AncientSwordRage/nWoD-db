@@ -30,7 +30,7 @@ class SkillAbility(models.Model):
         STREETWISE = 'Streetwise'  # Social
         SUBTERFUGE = 'Subterfuge'  # Social
 
-    skill = EnumField(Skills)
+    skill = EnumField(Skills, max_length=15)
 
     class Meta:
         verbose_name_plural = "Skill Abilities"
@@ -59,3 +59,26 @@ class AttributeAbility(models.Model):
 
     def __str__(self):
         return self.attribute.label
+
+
+class ArcanumAbility(models.Model):
+
+    class Arcana(Enum):
+        FATE = 'Fate'
+        MIND = 'Mind'
+        SPIRIT = 'Spirit'
+        DEATH = 'Death'
+        FORCES = 'Forces'
+        TIME = 'Time'
+        SPACE = 'Space'
+        LIFE = 'Life'
+        MATTER = 'Matter'
+        PRIME = 'Prime'
+
+    arcanum = EnumField(Arcana)
+
+    class Meta:
+        verbose_name_plural = "Arcana Abilities"
+
+    def __str__(self):
+        return self.arcanum.label

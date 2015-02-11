@@ -1,6 +1,7 @@
 from django.db import models
 from characters.models import NWODCharacter, Characteristics, Trait
 from nwod_characters.util import modify_verbose, IntegerRangeField
+from characters.enums import ArcanumAbility  # NOQA
 from django.contrib.contenttypes.fields import GenericRelation
 # from enumfields import EnumField
 
@@ -26,17 +27,24 @@ class Mage(NWODCharacter, Characteristics):
         ('SL', 'The Silver Ladder'),
         ('FC', 'The Free Council')
     )
+    arcana = models.ManyToManyField('ArcanumAbility', through='CharacterArcanumLink')
+
+    def save(self, *args, **kwargs):
+        initialise_all_links = not self.pk
+        super(Mage, self).save(
+            initialise_all_links=initialise_all_links, *args, **kwargs)
+        if initialise_all_links:
+            CharacterArcanumLink.objects.bulk_create([
+                CharacterArcanumLink(
+                    arcana=ArcanumAbility.objects.get_or_create(
+                        arcanum=arcana)[0],
+                    mage=self,
+                )
+                for arcana in ArcanumAbility.Arcana
+            ])
 
     def __str__(self):
         return self.name
-
-ARCANUM_CHOICES = (
-    (None, '----'), ('Fate', 'Fate'), ('Mind',
-                                       'Mind'), ('Spirit', 'Spirit'), ('Death', 'Death'),
-    ('Forces', 'Forces'), ('Time', 'Time'), ('Space',
-                                             'Space'), ('Life', 'Life'), ('Matter', 'Matter'),
-    ('Prime', 'Prime')
-)
 
 
 class Spell(models.Model):
@@ -46,8 +54,8 @@ class Spell(models.Model):
     # Each spell's arcanum have different rating. E.g. Fate 1, Prime 1
     # non-optional arcana in addition to the main arcana
     # arcana that are not needed to cast the spell
-    arcana = models.ManyToManyField('Arcana', through='SpellArcanumLink',
-                                    related_name='spell_by_arcanum')
+    arcana = models.ManyToManyField('ArcanumAbility', through='SpellArcanumLink',
+                                    related_name='spell_by_arcanum', null=True, blank=True, default=None)
 
     @property
     def primary_arcana(self):
@@ -102,27 +110,20 @@ class Spell(models.Model):
         return self.name
 
 
-class ArcanaLink(models.Model):
-    arcana = models.ForeignKey('Arcana')
-
-    class Meta:
-        abstract = True
-
-
-class Arcana(models.Model):
-    name = models.CharField(max_length=50, choices=ARCANUM_CHOICES)
-
-    def __str__(self):
-        return self.name
-
-
-class CharacterArcanumLink(ArcanaLink, Trait):
+class CharacterArcanumLink(Trait):
     PRIORITY_CHOICES = (
-        (1, 'Ruling'), (2, 'Common'), (3, 'Inferior')
+        (0, 'Unassigned'), (1, 'Ruling'), (2, 'Common'), (3, 'Inferior')
     )
     priority = models.PositiveSmallIntegerField(
-        choices=PRIORITY_CHOICES, default=None)
+        choices=PRIORITY_CHOICES, default=0)
     mage = models.ForeignKey('Mage')
+    arcana = models.ForeignKey('ArcanumAbility')
+
+    class Meta:
+        unique_together = ('mage', 'arcana')
+
+    def __str__(self):
+        return self.arcana.arcanum.label + ": " + str(self.current_value)
 
 
 class SpellLink(models.Model):
@@ -132,12 +133,13 @@ class SpellLink(models.Model):
         abstract = True
 
 
-class SpellArcanumLink(ArcanaLink, SpellLink):
+class SpellArcanumLink(SpellLink):
     type = models.CharField(max_length=32,
                             choices=(
                                 ('primary', 'primary'), ('secondary', 'secondary'), ('optional', 'optional'))
                             )
     value = IntegerRangeField(min_value=1, max_value=10)
+    arcana = models.ForeignKey('ArcanumAbility')
 
 
 class SpellAttributeLink(SpellLink):
