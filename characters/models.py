@@ -2,8 +2,9 @@ from django.db import models
 from nwod_characters.util import IntegerRangeField
 from django.contrib.contenttypes.fields import GenericForeignKey, GenericRelation
 from django.contrib.contenttypes.models import ContentType
-from characters.enums import SkillAbility, AttributeAbility  # NOQA
+from characters.enums import SkillAbility, AttributeAbility, Category  # NOQA
 from django.utils import timezone
+
 # import csv
 
 # Create your models here.
@@ -39,14 +40,15 @@ class NWODCharacter(models.Model):
             ]
             "\n".join([str(foo) for foo in all_skills])
             CharacterSkillLink.objects.bulk_create(all_skills)
-            CharacterAttributeLink.objects.bulk_create([
+            all_attrributes = [
                 CharacterAttributeLink(
                     attribute=AttributeAbility.objects.get_or_create(
                         attribute=attribute)[0],
                     content_object=self,
                 )
                 for attribute in AttributeAbility.Attributes
-            ])
+            ]
+            CharacterAttributeLink.objects.bulk_create(all_attrributes)
 
     @property
     def is_published(self):
@@ -54,6 +56,21 @@ class NWODCharacter(models.Model):
 
     attributes = GenericRelation('CharacterAttributeLink')
     skills = GenericRelation('CharacterSkillLink')
+
+    @property
+    def physical_attributes(self):
+        return [self.attributes.filter(attribute=attribute) for attribute
+                in AttributeAbility.objects.physical()]
+
+    @property
+    def mental_attributes(self):
+        return [self.attributes.filter(attribute=attribute) for attribute
+                in AttributeAbility.objects.mental()]
+
+    @property
+    def social_attributes(self):
+        return [self.attributes.filter(attribute=attribute) for attribute
+                in AttributeAbility.objects.social()]
 
 
 class Characteristics(models.Model):

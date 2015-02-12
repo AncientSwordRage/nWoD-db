@@ -2,35 +2,75 @@ from enumfields import Enum, EnumField
 from django.db import models
 
 
+class AutoNumber(Enum):
+
+    def __new__(cls):
+        value = len(cls.__members__) + 1
+        obj = object.__new__(cls)
+        obj._value_ = value
+        return obj
+
+
+class Category(AutoNumber):
+    MENTAL = ()
+    PHYSICAL = ()
+    SOCIAL = ()
+
+
+class CategoryManager(models.Manager):
+
+    '''
+    Class to manage instances that rely on the category enum
+    '''
+
+    def physical(self):
+        return [categorised_item for categorised_item in super(CategoryManager, self).get_queryset().all()
+                if categorised_item.category == Category['PHYSICAL']]
+
+    def mental(self):
+        return [categorised_item for categorised_item in super(CategoryManager, self).get_queryset().all()
+                if categorised_item.category == Category['MENTAL']]
+
+    def social(self):
+        return [categorised_item for categorised_item in super(CategoryManager, self).get_queryset().all()
+                if categorised_item.category == Category['SOCIAL']]
+
+
 class SkillAbility(models.Model):
 
-    class Skills(Enum):
-        ACADEMICS = 'Academics'  # Mental
-        COMPUTER = 'Computer'  # Mental
-        CRAFTS = 'Crafts'  # Mental
-        INVESTIGATION = 'Investigation'  # Mental
-        MEDICINE = 'Medicine'  # Mental
-        OCCULT = 'Occult'  # Mental
-        POLITICS = 'Politics'  # Mental
-        SCIENCE = 'Science'  # Mental
-        ATHLETICS = 'Athletics'  # Physical
-        BRAWL = 'Brawl'  # Physical
-        DRIVE = 'Drive'  # Physical
-        FIREARMS = 'Firearms'  # Physical
-        LARCENY = 'Larceny'  # Physical
-        STEALTH = 'Stealth'  # Physical
-        SURVIVAL = 'Survival'  # Physical
-        WEAPONRY = 'Weaponry'  # Physical
-        ANIMAL = 'Animal Ken'  # Social
-        EMPATHY = 'Empathy'  # Social
-        EXPRESSION = 'Expression'  # Social
-        INTIMIDATION = 'Intimidation'  # Social
-        PERSUASION = 'Persuasion'  # Social
-        SOCIALIZE = 'Socialize'  # Social
-        STREETWISE = 'Streetwise'  # Social
-        SUBTERFUGE = 'Subterfuge'  # Social
+    class Skills(AutoNumber):
+        ACADEMICS = ()  # Mental
+        COMPUTER = ()  # Mental
+        CRAFTS = ()  # Mental
+        INVESTIGATION = ()  # Mental
+        MEDICINE = ()  # Mental
+        OCCULT = ()  # Mental
+        POLITICS = ()  # Mental
+        SCIENCE = ()  # Mental
+        ATHLETICS = ()  # Physical
+        BRAWL = ()  # Physical
+        DRIVE = ()  # Physical
+        FIREARMS = ()  # Physical
+        LARCENY = ()  # Physical
+        STEALTH = ()  # Physical
+        SURVIVAL = ()  # Physical
+        WEAPONRY = ()  # Physical
+        ANIMAL_KEN = ()  # Social
+        EMPATHY = ()  # Social
+        EXPRESSION = ()  # Social
+        INTIMIDATION = ()  # Social
+        PERSUASION = ()  # Social
+        SOCIALIZE = ()  # Social
+        STREETWISE = ()  # Social
+        SUBTERFUGE = ()  # Social
 
-    skill = EnumField(Skills, max_length=15)
+    skill = EnumField(Skills)
+
+    @property
+    def skill_type(self):
+        skill_group = lambda skill: (int((skill.value - 1) / 8)) + 1 % 3
+
+        return Category(skill_group(self.skill))
 
     class Meta:
         verbose_name_plural = "Skill Abilities"
@@ -41,18 +81,26 @@ class SkillAbility(models.Model):
 
 class AttributeAbility(models.Model):
 
-    class Attributes(Enum):
-        INTELLIGENCE = 'Intelligence'  # Mental, Power
-        WITS = 'Wits'  # Mental', 'Finesse
-        RESOLVE = 'Resolve'  # Mental', 'Resistance
-        STRENGTH = 'Strength'  # Physical', 'Power
-        DEXTERITY = 'Dexterity'  # Physical', 'Finesse
-        STAMINA = 'Stamina'  # Physical', 'Resistance
-        PRESENCE = 'Presence'  # Social', 'Power
-        MANIPULATION = 'Manipulation'  # Social', 'Finesse
-        COMPOSURE = 'Composure'  # Social', 'Resistance
+    class Attributes(AutoNumber):
+        INTELLIGENCE = ()  # Mental, Power
+        WITS = ()  # Mental', 'Finesse
+        RESOLVE = ()  # Mental', 'Resistance
+        STRENGTH = ()  # Physical', 'Power
+        DEXTERITY = ()  # Physical', 'Finesse
+        STAMINA = ()  # Physical', 'Resistance
+        PRESENCE = ()  # Social', 'Power
+        MANIPULATION = ()  # Social', 'Finesse
+        COMPOSURE = ()  # Social', 'Resistance
 
     attribute = EnumField(Attributes)
+    objects = CategoryManager()
+
+    @property
+    def category(self):
+        attribute_group = lambda attribute: (
+            int((attribute.value - 1) / 3)) + 1 % 3
+
+        return Category(attribute_group(self.attribute))
 
     class Meta:
         verbose_name_plural = "Attribute Abilities"
@@ -63,17 +111,17 @@ class AttributeAbility(models.Model):
 
 class ArcanumAbility(models.Model):
 
-    class Arcana(Enum):
-        FATE = 'Fate'
-        MIND = 'Mind'
-        SPIRIT = 'Spirit'
-        DEATH = 'Death'
-        FORCES = 'Forces'
-        TIME = 'Time'
-        SPACE = 'Space'
-        LIFE = 'Life'
-        MATTER = 'Matter'
-        PRIME = 'Prime'
+    class Arcana(AutoNumber):
+        FATE = ()
+        MIND = ()
+        SPIRIT = ()
+        DEATH = ()
+        FORCES = ()
+        TIME = ()
+        SPACE = ()
+        LIFE = ()
+        MATTER = ()
+        PRIME = ()
 
     arcanum = EnumField(Arcana)
 
