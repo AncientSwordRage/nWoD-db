@@ -72,6 +72,21 @@ class NWODCharacter(models.Model):
         return [self.attributes.filter(attribute=attribute) for attribute
                 in AttributeAbility.objects.social()]
 
+    @property
+    def physical_skills(self):
+        return [self.skills.filter(skill=skill) for skill
+                in SkillAbility.objects.physical()]
+
+    @property
+    def mental_skills(self):
+        return [self.skills.filter(skill=skill) for skill
+                in SkillAbility.objects.mental()]
+
+    @property
+    def social_skills(self):
+        return [self.skills.filter(skill=skill) for skill
+                in SkillAbility.objects.social()]
+
 
 class Characteristics(models.Model):
 

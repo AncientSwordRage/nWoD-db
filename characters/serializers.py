@@ -9,13 +9,16 @@ class MageSerializer(serializers.ModelSerializer):
     mental_attributes = serializers.StringRelatedField(many=True)
     physical_attributes = serializers.StringRelatedField(many=True)
     social_attributes = serializers.StringRelatedField(many=True)
-    skills = serializers.StringRelatedField(many=True)
+    mental_skills = serializers.StringRelatedField(many=True)
+    physical_skills = serializers.StringRelatedField(many=True)
+    social_skills = serializers.StringRelatedField(many=True)
 
     class Meta:
         model = Mage
         fields = ('id', 'player', 'name', 'sub_race', 'faction', 'is_published',
                   'power_level', 'energy_trait', 'virtue', 'vice', 'morality', 'size',
-                  'arcana', 'mental_attributes', 'physical_attributes', 'social_attributes', 'skills')
+                  'arcana', 'mental_attributes', 'physical_attributes', 'social_attributes',
+                  'mental_skills', 'physical_skills', 'social_skills')
         depth = 1
 
 

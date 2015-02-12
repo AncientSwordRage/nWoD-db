@@ -65,10 +65,12 @@ class SkillAbility(models.Model):
         SUBTERFUGE = ()  # Social
 
     skill = EnumField(Skills)
+    objects = CategoryManager()
 
     @property
-    def skill_type(self):
-        skill_group = lambda skill: (int((skill.value - 1) / 8)) + 1 % 3
+    def category(self):
+        skill_group = lambda skill: (
+            int((skill.value - 1) / 8)) + 1 % 3
 
         return Category(skill_group(self.skill))
 
