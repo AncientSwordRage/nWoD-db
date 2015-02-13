@@ -156,7 +156,7 @@ class CharacterSkillLink(Trait, CrossCharacterMixin):
 
     def __str__(self):
         spec_string = " (" + self.speciality + ")" if self.speciality else ""
-        return self.skill.skill.label + spec_string
+        return self.skill.skill.label
 
 
 class CharacterAttributeLink(Trait, CrossCharacterMixin):
