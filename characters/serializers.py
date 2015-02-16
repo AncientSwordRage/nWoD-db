@@ -32,7 +32,8 @@ class MageSerializer(serializers.ModelSerializer):
 
     def get_arcana(self, obj):
         if obj:
-            return {str(x): x.current_value for x in obj.linked_arcana.all()}
+            return {str(arcana): arcana.current_value for arcana in obj.linked_arcana.all()}
+
     mental_attributes = TraitField()
     physical_attributes = TraitField()
     social_attributes = TraitField()
