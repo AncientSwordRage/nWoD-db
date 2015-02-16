@@ -32,8 +32,7 @@ class MageSerializer(serializers.ModelSerializer):
 
     def get_arcana(self, obj):
         if obj:
-            return {str(x): CharacterArcanumLink.objects.filter(arcana=x, mage=obj).get().current_value
-                    for x in obj.arcana.all()}
+            return {str(x): x.current_value for x in obj.linked_arcana.all()}
     mental_attributes = TraitField()
     physical_attributes = TraitField()
     social_attributes = TraitField()

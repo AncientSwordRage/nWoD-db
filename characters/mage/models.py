@@ -116,8 +116,8 @@ class CharacterArcanumLink(Trait):
     )
     priority = models.PositiveSmallIntegerField(
         choices=PRIORITY_CHOICES, default=0)
-    mage = models.ForeignKey('Mage')
-    arcana = models.ForeignKey('ArcanumAbility')
+    mage = models.ForeignKey('Mage', related_name='linked_arcana')
+    arcana = models.ForeignKey('ArcanumAbility', related_name='character_link_by_arcana')
 
     class Meta:
         unique_together = ('mage', 'arcana')
