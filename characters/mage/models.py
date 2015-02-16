@@ -27,7 +27,7 @@ class Mage(NWODCharacter, Characteristics):
         ('SL', 'The Silver Ladder'),
         ('FC', 'The Free Council')
     )
-    arcana = models.ManyToManyField('ArcanumAbility', through='CharacterArcanumLink')
+    arcana = models.ManyToManyField('ArcanumAbility', through='CharacterArcanumLink', related_name='mage_by_arcana')
 
     def save(self, *args, **kwargs):
         initialise_all_links = not self.pk
@@ -123,7 +123,7 @@ class CharacterArcanumLink(Trait):
         unique_together = ('mage', 'arcana')
 
     def __str__(self):
-        return self.arcana.arcanum.label + ": " + str(self.current_value)
+        return self.arcana.arcanum.label
 
 
 class SpellLink(models.Model):

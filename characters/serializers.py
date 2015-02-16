@@ -1,31 +1,45 @@
 from django.contrib.auth.models import User
 from rest_framework import serializers
-from characters.mage.models import Mage
+from characters.mage.models import Mage, CharacterArcanumLink
 
 
-class EnumField(serializers.Field):
+class TraitField(serializers.Field):
 
     """
-    Enum objects are serialized into " 'label' : value " notation
+    Trait objects are serialized into " 'label' : value " notation
     """
 
     def to_representation(self, obj):
-        return "'{0}': {1} ".format(obj.all()[0].__str__(), obj.all()[0].current_value)
+        return {str(trait_item.get()): trait_item.get().current_value for trait_item in obj}
 
 
-class EnumListField(serializers.ListField):
-    child = EnumField()
+class TraitRelatedField(serializers.Field):
+
+    def to_representation(self, obj):
+        return {str(obj): item.current_value for item in obj.all()}
+
+
+class CharacterArcanumLinkSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = CharacterArcanumLink
+        fields = ('current_value', 'arcana')
 
 
 class MageSerializer(serializers.ModelSerializer):
     player = serializers.ReadOnlyField(source='player.username')
-    arcana = serializers.StringRelatedField(many=True)
-    mental_attributes = EnumListField()
-    physical_attributes = EnumListField()
-    social_attributes = EnumListField()
-    mental_skills = EnumListField()
-    physical_skills = EnumListField()
-    social_skills = EnumListField()
+    arcana = serializers.SerializerMethodField()
+
+    def get_arcana(self, obj):
+        if obj:
+            return {str(x): CharacterArcanumLink.objects.filter(arcana=x, mage=obj).get().current_value
+                    for x in obj.arcana.all()}
+    mental_attributes = TraitField()
+    physical_attributes = TraitField()
+    social_attributes = TraitField()
+    mental_skills = TraitField()
+    physical_skills = TraitField()
+    social_skills = TraitField()
 
     class Meta:
         model = Mage
