@@ -40,6 +40,7 @@ INSTALLED_APPS = (
     'rest_framework',
     'characters',
     'django_extensions',
+    'djangular',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -56,6 +57,11 @@ ROOT_URLCONF = 'nwod_characters.urls'
 
 WSGI_APPLICATION = 'nwod_characters.wsgi.application'
 
+STATICFILES_FINDERS = (
+    'django.contrib.staticfiles.finders.FileSystemFinder',
+    'django.contrib.staticfiles.finders.AppDirectoriesFinder',
+    'djangular.finders.NamespacedAngularAppDirectoriesFinder'
+)
 
 # Database
 # https://docs.djangoproject.com/en/1.7/ref/settings/#databases
