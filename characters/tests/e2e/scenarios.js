@@ -2,10 +2,10 @@
 
 /* http://docs.angularjs.org/guide/dev_guide.e2e-testing */
 
-describe('characters2', function() {
+describe('characters', function() {
 
   beforeEach(function() {
-    browser().navigateTo('/static/characters2/index.html');
+    browser().navigateTo('/static/characters/index.html');
   });
 
 

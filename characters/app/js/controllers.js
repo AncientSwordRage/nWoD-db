@@ -2,7 +2,7 @@
 
 /* Controllers */
 
-angular.module('characters2.controllers', []).
+angular.module('characters.controllers', []).
     controller('MyCtrl1', [function() {
 
     }])

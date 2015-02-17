@@ -3,7 +3,7 @@
 /* Directives */
 
 
-angular.module('characters2.directives', []).
+angular.module('characters.directives', []).
   directive('appVersion', ['version', function(version) {
     return function(scope, elm, attrs) {
       elm.text(version);

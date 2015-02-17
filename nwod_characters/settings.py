@@ -51,6 +51,7 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.auth.middleware.SessionAuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'djangular.middleware.AngularJsonVulnerabilityMiddleware',
 )
 
 ROOT_URLCONF = 'nwod_characters.urls'

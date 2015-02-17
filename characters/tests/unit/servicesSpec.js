@@ -3,7 +3,7 @@
 /* jasmine specs for services go here */
 
 describe('service', function() {
-  beforeEach(module('characters2.services'));
+  beforeEach(module('characters.services'));
 
 
   describe('version', function() {

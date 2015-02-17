@@ -3,7 +3,7 @@
 /* jasmine specs for filters go here */
 
 describe('filter', function() {
-  beforeEach(module('characters2.filters'));
+  beforeEach(module('characters.filters'));
 
 
   describe('interpolate', function() {

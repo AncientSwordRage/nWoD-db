@@ -5,5 +5,5 @@
 
 // Demonstrate how to register services
 // In this case it is a simple value service.
-angular.module('characters2.services', []).
+angular.module('characters.services', []).
   value('version', '0.1');
