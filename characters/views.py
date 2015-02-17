@@ -3,7 +3,7 @@ from django.contrib.auth.models import User
 from rest_framework import permissions, viewsets
 from characters.mage.models import Mage
 from characters.serializers import MageSerializer, UserSerializer
-from characters.permissions import IsOwnerOrReadOnly
+from nwod_characters.permissions import IsOwnerOrReadOnly
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from rest_framework.reverse import reverse
