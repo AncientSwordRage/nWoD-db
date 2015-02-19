@@ -10,9 +10,20 @@ https://docs.djangoproject.com/en/1.7/ref/settings/
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 import os
-BASE_DIR = os.path.dirname(os.path.dirname(__file__))
-TEMPLATE_DIRS = [os.path.join(BASE_DIR, 'templates'), ]
 
+
+STATICFILES_FINDERS = (
+    'django.contrib.staticfiles.finders.FileSystemFinder',
+    'django.contrib.staticfiles.finders.AppDirectoriesFinder',
+    'djangular.finders.NamespacedAngularAppDirectoriesFinder'
+)
+
+BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+TEMPLATE_DIRS = [
+    os.path.join(BASE_DIR, 'nwod_characters', 'templates'),
+    os.path.join(BASE_DIR, 'characters', 'app')]
+
+print("\n".join([foo for foo in TEMPLATE_DIRS]))
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.7/howto/deployment/checklist/
 
@@ -30,7 +41,6 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = (
-    'autocomplete_light',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -57,12 +67,6 @@ MIDDLEWARE_CLASSES = (
 ROOT_URLCONF = 'nwod_characters.urls'
 
 WSGI_APPLICATION = 'nwod_characters.wsgi.application'
-
-STATICFILES_FINDERS = (
-    'django.contrib.staticfiles.finders.FileSystemFinder',
-    'django.contrib.staticfiles.finders.AppDirectoriesFinder',
-    'djangular.finders.NamespacedAngularAppDirectoriesFinder'
-)
 
 # Database
 # https://docs.djangoproject.com/en/1.7/ref/settings/#databases
