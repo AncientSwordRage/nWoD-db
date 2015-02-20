@@ -1,3 +1,5 @@
+{% load staticfiles %}
+
 <!doctype html>
 <html lang="en" ng-app="characters">
 <head>
@@ -18,13 +20,13 @@
   <!-- In production use:
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.2/angular.min.js"></script>
   -->
-  <script src="../lib/angular/angular.js"></script>
-  <script src="../lib/angular/angular-cookies.js"></script>
-  <script src="/djangular/app.js"></script>
-  <script src="js/app.js"></script>
-  <script src="js/services.js"></script>
-  <script src="js/controllers.js"></script>
-  <script src="js/filters.js"></script>
-  <script src="js/directives.js"></script>
+  <script src="{% static 'angular.js' %}"></script>
+  <script src="{% static 'angular-cookies.js' %}"></script>
+  <script src="{% static '/djangular/app.js' %}"></script>
+  <script src="{% static 'js/app.js' %}"></script>
+  <script src="{% static 'js/services.js' %}"></script>
+  <script src="{% static 'js/controllers.js' %}"></script>
+  <script src="{% static 'js/filters.js' %}"></script>
+  <script src="{% static 'js/directives.js' %}"></script>
 </body>
 </html>

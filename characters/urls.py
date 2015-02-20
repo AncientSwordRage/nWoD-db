@@ -26,5 +26,5 @@ urlpatterns = format_suffix_patterns([
     url(r'^api/mages/(?P<pk>[0-9]+)$', mage_detail, name='mage-detail'),
     url(r'^api/users$', user_list, name='user-list'),
     url(r'^api/users/(?P<pk>[0-9]+)$', user_detail, name='user-detail'),
-    url(r'^.*$', IndexView.as_view(), name='index'),
 ])
+urlpatterns += [url(r'^$', IndexView.as_view(), name='index'), ]

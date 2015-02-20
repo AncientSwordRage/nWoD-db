@@ -10,7 +10,7 @@ https://docs.djangoproject.com/en/1.7/ref/settings/
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 import os
-
+from itertools import chain
 
 STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.FileSystemFinder',
@@ -22,6 +22,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 TEMPLATE_DIRS = [
     os.path.join(BASE_DIR, 'nwod_characters', 'templates'),
     os.path.join(BASE_DIR, 'characters', 'app')]
+
+STATICFILES_DIRS = [os.path.join(BASE_DIR, *root.split(os.sep)) for root, dir,
+                    files in chain(os.walk("static"), os.walk(os.path.join('characters', 'app')))]
 
 print("\n".join([foo for foo in TEMPLATE_DIRS]))
 # Quick-start development settings - unsuitable for production
