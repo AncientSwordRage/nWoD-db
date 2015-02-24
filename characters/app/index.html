@@ -5,22 +5,23 @@
 <head>
   <meta charset="utf-8">
   <title>My AngularJS App</title>
-  <link rel="stylesheet" href="css/app.css"/>
+  <link rel="stylesheet" href="{% static 'css/app.css' %}"/>
 </head>
 <body>
   <ul class="menu">
-    <li><a href="#/view1">view1</a></li>
-    <li><a href="#/view2">view2</a></li>
+    <li><a ui-sref="users">Users</a></li>
+    <li><a ui-sref="mages">Mages</a></li>
   </ul>
 
-  <div ng-view></div>
+  <div ui-view></div>
 
-  <div>Angular seed app: v<span app-version></span></div>
 
   <!-- In production use:
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.2/angular.min.js"></script>
   -->
   <script src="{% static 'angular.js' %}"></script>
+  <script src="{% static 'angular-route.js' %}"></script>
+  <script src="{% static 'angular-ui-router.js' %}"></script>
   <script src="{% static 'angular-cookies.js' %}"></script>
   <script src="{% static '/djangular/app.js' %}"></script>
   <script src="{% static 'js/app.js' %}"></script>
