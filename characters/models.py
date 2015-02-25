@@ -14,6 +14,8 @@ class NWODCharacter(models.Model):
 
     class Meta:
         abstract = True
+        ordering = ['updated_date', 'created_date']
+
     SUB_RACE_CHOICES = ()
     FACTION_CHOICES = ()
 

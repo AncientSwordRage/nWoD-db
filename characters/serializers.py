@@ -43,7 +43,7 @@ class MageSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Mage
-        fields = ('id', 'player', 'name', 'sub_race', 'faction', 'is_published',
+        fields = ('id', 'player', 'name', 'sub_race', 'faction', 'is_published', 'updated_date',
                   'power_level', 'energy_trait', 'virtue', 'vice', 'morality', 'size',
                   'arcana', 'mental_attributes', 'physical_attributes', 'social_attributes',
                   'mental_skills', 'physical_skills', 'social_skills')
@@ -53,7 +53,12 @@ class MageSerializer(serializers.ModelSerializer):
 class UserSerializer(serializers.ModelSerializer):
     mage_by_user = serializers.PrimaryKeyRelatedField(
         many=True, queryset=Mage.objects.all())
+    mage_last_updated = serializers.SerializerMethodField()
 
     class Meta:
         model = User
-        fields = ('id', 'username', 'mage_by_user')
+        fields = ('id', 'username', 'mage_by_user', 'mage_last_updated',)
+
+    def get_mage_last_updated(self, obj):
+        latest_mage = obj.mage_by_user.latest('updated_date')
+        return latest_mage.updated_date
