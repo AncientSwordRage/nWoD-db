@@ -15,7 +15,7 @@ from itertools import chain
 STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.FileSystemFinder',
     'django.contrib.staticfiles.finders.AppDirectoriesFinder',
-    'djangular.finders.NamespacedAngularAppDirectoriesFinder'
+    # 'djangular.finders.NamespacedAngularAppDirectoriesFinder'
 )
 
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
@@ -26,7 +26,7 @@ TEMPLATE_DIRS = [
 STATICFILES_DIRS = [os.path.join(BASE_DIR, *root.split(os.sep)) for root, dir,
                     files in chain(os.walk("static"), os.walk(os.path.join('characters', 'app')))]
 
-print("\n".join([foo for foo in TEMPLATE_DIRS]))
+
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.7/howto/deployment/checklist/
 
@@ -41,6 +41,9 @@ TEMPLATE_DEBUG = True
 ALLOWED_HOSTS = []
 
 
+if DEBUG:
+    print("\n".join([foo for foo in STATICFILES_DIRS]))
+
 # Application definition
 
 INSTALLED_APPS = (
@@ -50,6 +53,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'debug_toolbar',
     'rest_framework',
     'characters',
     'django_extensions',
