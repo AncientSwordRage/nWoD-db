@@ -2,9 +2,14 @@
 <input type="search" ng-model="q" placeholder="Filter users..." />
 <ul class="example-animate-container">
   <li class="animate-repeat" ng-repeat="user in users | filter:q as results">
-  	{{ user.username }}
+    {{ user.username }}
+    <ul class="example-animate-container">
+        <li class="animate-repeat" ng-repeat="mage in user.mage_by_user">
+            {{ mage.id }}
+        </li>
+    </ul>
   </li>
   <li class="animate-repeat" ng-if="results.length == 0">
-  	<strong>No results found...</strong>
+    <strong>No results found...</strong>
   </li>
 </ul>
