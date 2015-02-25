@@ -2,7 +2,7 @@
 
 
 // Declare app level module which depends on filters, and services
-angular.module('characters', ['djangular', 'ui.router',
+angular.module('characters', ['djangular', 'ui.router', 'djangular.csrf',
 	'characters.filters', 'characters.services', 'characters.directives', 'characters.controllers'])
 	.config(['$stateProvider','DjangoProperties', '$urlRouterProvider',
 	function($stateProvider, DjangoProperties, $urlRouterProvider, UserListCtrl) {
