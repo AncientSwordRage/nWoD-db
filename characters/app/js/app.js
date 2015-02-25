@@ -27,8 +27,7 @@ angular.module('characters', ['djangular', 'ui.router', 'djangular.csrf',
 	    .state('mages.list', {
 	      url: "/list",
 	      templateUrl: DjangoProperties.STATIC_URL + "partials/mages.list.html",
-	      controller: function($scope) {
-	        $scope.items = ["A", "Set", "Of", "Things"];
-	      }
+	      controller: 'MageListCtrl'
+	    })
 	    });
 	  }]);

@@ -12,7 +12,16 @@ angular.module('characters.services', [])
           $http.get('api/users').success(function(data) {
           // prepare data here
           callback(data);
-          console.log(data)
+        });
+      }
+    };
+  }])
+  .factory('Mages', ['$http', function($http){
+    return{
+      get: function(callback){
+          $http.get('api/mages').success(function(data) {
+          // prepare data here
+          callback(data);
         });
       }
     };

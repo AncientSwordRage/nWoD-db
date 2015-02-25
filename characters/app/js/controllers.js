@@ -7,8 +7,10 @@ angular.module('characters.controllers', []).
         Users.get(function(data){
             $scope.users = data;
         });
+    }])
+    .controller('MageListCtrl', ['$scope', 'Mages', function($scope, Mages) {
+        Mages.get(function(data){
+            $scope.mages = data;
+        });
     }
-    ])
-    .controller('MyCtrl2', [function() {
-
-    }]);
+    ]);
