@@ -14,4 +14,4 @@ class IsOwnerOrReadOnly(permissions.BasePermission):
             return True
 
         # Write permissions are only allowed to the owner of the mage.
-        return any((obj.owner == request.user, request.user.is_superuser, request.user.is_staff))
+        return any((obj.player == request.user, request.user.is_superuser, request.user.is_staff))
