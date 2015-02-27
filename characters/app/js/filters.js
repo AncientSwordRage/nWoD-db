@@ -2,9 +2,8 @@
 
 /* Filters */
 
-angular.module('characters.filters', []).
-  filter('interpolate', ['version', function(version) {
-    return function(text) {
-      return String(text).replace(/\%VERSION\%/mg, version);
-    }
-  }]);
+angular.module('characters.filters', []).filter('classy', function() {
+  return function(text) {
+    return String(text).replace(/ /mg, "-");
+  };
+});
