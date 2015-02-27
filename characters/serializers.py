@@ -3,16 +3,6 @@ from rest_framework import serializers
 from characters.mage.models import Mage, CharacterArcanumLink
 
 
-class TraitField(serializers.Field):
-
-    """
-    Trait objects are serialized into " 'label' : value " notation
-    """
-
-    def to_representation(self, obj):
-        return {str(trait_item.get()): trait_item.get().current_value for trait_item in obj}
-
-
 class TraitRelatedField(serializers.Field):
 
     def to_representation(self, obj):
@@ -34,19 +24,34 @@ class MageSerializer(serializers.ModelSerializer):
         if obj:
             return {str(arcana): arcana.current_value for arcana in obj.linked_arcana.all()}
 
-    mental_attributes = TraitField()
-    physical_attributes = TraitField()
-    social_attributes = TraitField()
-    mental_skills = TraitField()
-    physical_skills = TraitField()
-    social_skills = TraitField()
+    attributes = serializers.SerializerMethodField('character_attribute')
+    skills = serializers.SerializerMethodField('character_skill')
+
+    def character_attribute(self, obj):
+        character_attribute_fields = {}
+        character_attribute_fields['mental'] = {str(trait_item.get()): trait_item.get().current_value
+                                                for trait_item in obj.mental_attributes}
+        character_attribute_fields['physical'] = {str(trait_item.get()): trait_item.get().current_value
+                                                  for trait_item in obj.physical_attributes}
+        character_attribute_fields['social'] = {str(trait_item.get()): trait_item.get().current_value
+                                                for trait_item in obj.social_attributes}
+        return character_attribute_fields
+
+    def character_skill(self, obj):
+        character_skill_fields = {}
+        character_skill_fields['mental'] = {str(trait_item.get()): trait_item.get().current_value
+                                            for trait_item in obj.mental_skills}
+        character_skill_fields['physical'] = {str(trait_item.get()): trait_item.get().current_value
+                                              for trait_item in obj.physical_skills}
+        character_skill_fields['social'] = {str(trait_item.get()): trait_item.get().current_value
+                                            for trait_item in obj.social_skills}
+        return character_skill_fields
 
     class Meta:
         model = Mage
-        fields = ('id', 'player', 'name', 'sub_race', 'faction', 'is_published', 'updated_date',
+        fields = ('id', 'player', 'name', 'sub_race', 'faction', 'is_published',
                   'power_level', 'energy_trait', 'virtue', 'vice', 'morality', 'size',
-                  'arcana', 'mental_attributes', 'physical_attributes', 'social_attributes',
-                  'mental_skills', 'physical_skills', 'social_skills')
+                  'arcana', 'attributes', 'skills')
         depth = 1
 
 
