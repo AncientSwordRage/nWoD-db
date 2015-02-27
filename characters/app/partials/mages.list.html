@@ -2,7 +2,7 @@
 <input type="search" ng-model="q" placeholder="Filter mages..." />
 <ul class="example-animate-container">
   <li class="animate-repeat" ng-repeat="mage in mages | filter:q as results">
-    {{ mage.name }} the {{mage.sub_race}} <span ng-if="mage.faction != None"> of {{mage.faction}}</span>
+    <a ui-sref="mages.detail({ mageID: mage.id })">{{ mage.name }}</a> the {{mage.sub_race}} <span ng-if="mage.faction != None"> of {{mage.faction}}</span>
   </li>
   <li class="animate-repeat" ng-if="results.length == 0">
     <strong>No results found...</strong>

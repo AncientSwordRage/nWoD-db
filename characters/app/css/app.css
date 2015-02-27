@@ -28,3 +28,25 @@
   content: "";
   padding: 0;
 }
+
+
+/*start of my tom foolery*/
+
+.attributes> [class*='col-'] {
+  float: left;
+}
+
+.attribute {
+  position:relative;
+  float: none;
+}
+
+.grid:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.category-header {
+  text-transform: capitalize;
+}

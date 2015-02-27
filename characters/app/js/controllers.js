@@ -8,9 +8,9 @@ angular.module('characters.controllers', []).
             $scope.users = data;
         });
     }])
-    .controller('MageListCtrl', ['$scope', 'Mages', function($scope, Mages) {
+    .controller('MageCtrl', ['$scope', 'Mages', function($scope, Mages) {
         Mages.get(function(data){
             $scope.mages = data;
         });
-    }
-    ]);
+    }])
+    ;

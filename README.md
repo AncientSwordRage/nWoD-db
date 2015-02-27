@@ -14,4 +14,4 @@ Web app for creating new world of darkness characters and browsing character dat
  8. [Create serialization for spells](https://github.com/AncientSwordRage/nWoD-db/issues/7)
  9. Improve Spell model
  10. Review Character models - Should each template be a [proxy model](https://docs.djangoproject.com/en/1.7/topics/db/models/#proxy-models) and access a template via foreign key? Then specific functionality (spells, arcana etc) be accessed by @property function defs
- 11. Add Angular front end
+ 11. [Implement angular ui](https://github.com/AncientSwordRage/nWoD-db/issues/9)
