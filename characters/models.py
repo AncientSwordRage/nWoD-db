@@ -23,10 +23,12 @@ class NWODCharacter(models.Model):
     size = IntegerRangeField(min_value=1, max_value=10, default=5)
 
     TYPE_CHOICES = (
-        ('Mage','Mage'),
         ('Mortal','Mortal'),
+        ('Mage','Mage'),
+        ('Werewolf','Werewolf'),
+        ('Vampire','Vampire'),
         )
 
     character_type = models.CharField(max_length=128,choices=TYPE_CHOICES)
-    def get_template(self):
-        pass
+    sub_race = models.CharField(max_length=255, null=True, default=None)
+    faction = models.CharField(max_length=255, null=True, default=None)
