@@ -35,7 +35,7 @@ python-dateutil==2.4.0
 python-mimeparse==0.1.4
 python-subunit==1.0.0
 pytz==2014.10
-PyYAML==3.11
+pyyaml>=4.2b1
 requests<=2.20.0
 selenium==2.44.0
 six==1.9.0
